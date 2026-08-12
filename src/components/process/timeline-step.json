@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_process_timeline_steps",
+  "info": {
+    "displayName": "Timeline Step",
+    "icon": "stack"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

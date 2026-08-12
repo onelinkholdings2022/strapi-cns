@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_footer_columns",
+  "info": {
+    "displayName": "Footer Column",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.footer-link"
+    },
+    "hasSeeMore": {
+      "type": "boolean",
+      "default": false
+    },
+    "seeMoreUrl": {
+      "type": "string"
+    }
+  }
+}

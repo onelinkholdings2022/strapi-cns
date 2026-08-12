@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team_members",
+  "info": {
+    "singularName": "team-member",
+    "pluralName": "team-members",
+    "displayName": "Team Member",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "text"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "location": {
+      "type": "enumeration",
+      "enum": [
+        "China",
+        "Hong Kong",
+        "Vietnam",
+        "Australia"
+      ]
+    },
+    "order": {
+      "type": "integer"
+    },
+    "featuredOnAboutUs": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

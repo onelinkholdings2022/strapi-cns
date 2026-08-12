@@ -1,0 +1,81 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_settings",
+  "info": {
+    "singularName": "service-setting",
+    "pluralName": "service-settings",
+    "displayName": "Service Settings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cardTag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "cardButtonLabel": {
+      "type": "string"
+    },
+    "categoryShowcase": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.category-showcase"
+    },
+    "testimonialsTag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "testimonialsHeading": {
+      "type": "string"
+    },
+    "testimonialTabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.testimonial-tab"
+    },
+    "faqTag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "faqHeading": {
+      "type": "string"
+    },
+    "faqHeadingHighlight": {
+      "type": "string"
+    },
+    "faqContactText": {
+      "type": "text"
+    },
+    "faqContactEmail": {
+      "type": "string"
+    },
+    "relatedResources": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.featured-resources"
+    },
+    "otherServicesTag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "otherServicesHeading": {
+      "type": "string"
+    },
+    "otherServicesButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "ctaBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.cta-banner"
+    }
+  }
+}

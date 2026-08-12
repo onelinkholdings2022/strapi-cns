@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_resources_insightses",
+  "info": {
+    "displayName": "Insights",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "pageSize": {
+      "type": "integer",
+      "default": 12
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "case_studies_pages",
+  "info": {
+    "singularName": "case-studies-page",
+    "pluralName": "case-studies-pages",
+    "displayName": "Case Studies Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-hero"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": false,
+      "component": "case-studies.list"
+    },
+    "usp": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.usp"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.testimonial-carousel"
+    },
+    "ctaBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.cta-banner"
+    }
+  }
+}

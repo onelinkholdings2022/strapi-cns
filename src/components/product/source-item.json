@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_product_source_items",
+  "info": {
+    "displayName": "Source Item",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

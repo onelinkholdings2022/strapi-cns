@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_logo_marquees",
+  "info": {
+    "displayName": "Logo Marquee",
+    "icon": "slideshow"
+  },
+  "options": {},
+  "attributes": {
+    "logos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.logo-item"
+    }
+  }
+}

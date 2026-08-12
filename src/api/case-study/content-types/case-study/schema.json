@@ -1,0 +1,97 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies",
+  "info": {
+    "singularName": "case-study",
+    "pluralName": "case-studies",
+    "displayName": "Case Study",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "description": {
+      "type": "text"
+    },
+    "region": {
+      "type": "enumeration",
+      "enum": [
+        "Vietnam",
+        "China",
+        "Hong Kong",
+        "Australia",
+        "America"
+      ]
+    },
+    "industry": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "featureImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "whatWeDoTag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "whatWeDoDescription": {
+      "type": "text"
+    },
+    "highlights": {
+      "type": "component",
+      "repeatable": true,
+      "component": "case-study.highlight"
+    },
+    "challengeTag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "challengeContent": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "solutionTag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "solutionContent": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

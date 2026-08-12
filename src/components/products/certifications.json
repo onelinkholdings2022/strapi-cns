@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_products_certificationses",
+  "info": {
+    "displayName": "Certifications",
+    "icon": "medium"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "logos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.certification-logo"
+    }
+  }
+}

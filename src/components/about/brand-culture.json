@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_about_brand_cultures",
+  "info": {
+    "displayName": "Brand Culture",
+    "icon": "discuss"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.brand-culture-tab"
+    }
+  }
+}

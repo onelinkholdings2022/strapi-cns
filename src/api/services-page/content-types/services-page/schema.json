@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_pages",
+  "info": {
+    "singularName": "services-page",
+    "pluralName": "services-pages",
+    "displayName": "Services Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.hero"
+    },
+    "process": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.process"
+    },
+    "categoryShowcase": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.category-showcase"
+    },
+    "usp": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.usp"
+    },
+    "caseStudies": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.case-studies"
+    },
+    "resources": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.featured-resources"
+    },
+    "ctaBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.cta-banner"
+    }
+  }
+}

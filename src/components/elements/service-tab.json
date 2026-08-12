@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_service_tabs",
+  "info": {
+    "displayName": "Service Tab",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.service-card"
+    }
+  }
+}

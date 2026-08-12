@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_sections_heros",
+  "info": {
+    "displayName": "Hero",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "rotatingWords": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.rotating-word"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.slide-button"
+    },
+    "backgroundVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "posterImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "videoUrl": {
+      "type": "string"
+    }
+  }
+}

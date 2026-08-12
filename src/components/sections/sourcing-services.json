@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_sourcing_serviceses",
+  "info": {
+    "displayName": "Sourcing Services",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "title": {
+      "type": "string"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.service-tab"
+    }
+  }
+}

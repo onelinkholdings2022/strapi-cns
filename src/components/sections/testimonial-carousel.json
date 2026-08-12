@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_testimonial_carousels",
+  "info": {
+    "displayName": "Testimonial Carousel",
+    "icon": "quote"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial"
+    }
+  }
+}

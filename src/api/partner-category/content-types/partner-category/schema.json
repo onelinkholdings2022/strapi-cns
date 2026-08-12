@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partner_categories",
+  "info": {
+    "singularName": "partner-category",
+    "pluralName": "partner-categories",
+    "displayName": "Partner Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_us_pages",
+  "info": {
+    "singularName": "about-us-page",
+    "pluralName": "about-us-pages",
+    "displayName": "About Us Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-hero"
+    },
+    "timeline": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.timeline"
+    },
+    "founderQuote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.founder-quote"
+    },
+    "logoMarquee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.logo-marquee"
+    },
+    "visionMissionValues": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.vision-mission-values"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.benefits"
+    },
+    "team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.team"
+    },
+    "locations": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.locations"
+    },
+    "caseStudies": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.case-studies"
+    },
+    "brandCulture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.brand-culture"
+    },
+    "ctaBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.cta-banner"
+    }
+  }
+}

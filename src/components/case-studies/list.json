@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_case_studies_lists",
+  "info": {
+    "displayName": "Case Studies List",
+    "icon": "filter"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "pageSize": {
+      "type": "integer",
+      "default": 12
+    }
+  }
+}

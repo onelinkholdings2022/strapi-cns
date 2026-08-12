@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_rotating_words",
+  "info": {
+    "displayName": "Rotating Word",
+    "icon": "typhoon"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

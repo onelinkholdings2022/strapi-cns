@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_services_process_steps",
+  "info": {
+    "displayName": "Process Step",
+    "icon": "stack"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

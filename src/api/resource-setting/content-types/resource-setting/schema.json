@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "resource_settings",
+  "info": {
+    "singularName": "resource-setting",
+    "pluralName": "resource-settings",
+    "displayName": "Resource Settings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "leadCapture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resources.lead-capture"
+    },
+    "relatedResourcesTag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "relatedResourcesHeading": {
+      "type": "string"
+    },
+    "relatedResourcesButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "ctaBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.cta-banner"
+    }
+  }
+}

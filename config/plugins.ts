@@ -31,6 +31,10 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Plugin =>
       },
     },
   },
+  // CKEditor 5 — rich text trả về HTML. Cần kèm src/admin/vite.config.ts (fix trắng màn Strapi 5.51.x).
+  ckeditor5: {
+    enabled: true,
+  },
   upload: {
     config: {
       security: {

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_certification_logos",
+  "info": {
+    "displayName": "Certification Logo",
+    "icon": "medium"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

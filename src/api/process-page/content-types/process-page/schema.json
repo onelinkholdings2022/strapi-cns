@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "process_pages",
+  "info": {
+    "singularName": "process-page",
+    "pluralName": "process-pages",
+    "displayName": "Process Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-hero"
+    },
+    "timeline": {
+      "type": "component",
+      "repeatable": false,
+      "component": "process.timeline"
+    },
+    "usp": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.usp"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.faq"
+    },
+    "ctaBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.cta-banner"
+    }
+  }
+}

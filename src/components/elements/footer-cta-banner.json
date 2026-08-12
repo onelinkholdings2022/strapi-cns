@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_footer_cta_banners",
+  "info": {
+    "displayName": "Footer CTA Banner",
+    "icon": "message"
+  },
+  "options": {},
+  "attributes": {
+    "marqueeText": {
+      "type": "string"
+    },
+    "hoverLabel": {
+      "type": "string"
+    },
+    "contactUrl": {
+      "type": "string"
+    }
+  }
+}

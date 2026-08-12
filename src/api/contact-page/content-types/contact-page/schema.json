@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Contact Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-hero"
+    },
+    "getInTouch": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.get-in-touch"
+    },
+    "whatHappensNext": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.process"
+    }
+  }
+}

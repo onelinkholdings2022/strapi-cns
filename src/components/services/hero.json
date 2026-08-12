@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_services_heros",
+  "info": {
+    "displayName": "Services Hero",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "rotatingWords": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.rotating-word"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

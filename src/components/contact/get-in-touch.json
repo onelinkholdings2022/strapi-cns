@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_contact_get_in_touches",
+  "info": {
+    "displayName": "Get In Touch",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "infoItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.info-item"
+    },
+    "socialLabel": {
+      "type": "string"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.social-link"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.hubspot-form"
+    }
+  }
+}

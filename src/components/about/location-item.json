@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_about_location_items",
+  "info": {
+    "displayName": "Location Item",
+    "icon": "pinMap"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "countryName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

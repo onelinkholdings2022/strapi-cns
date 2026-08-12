@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_services_offeringses",
+  "info": {
+    "displayName": "Offerings",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.offering-item"
+    }
+  }
+}

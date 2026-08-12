@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "resources_pages",
+  "info": {
+    "singularName": "resources-page",
+    "pluralName": "resources-pages",
+    "displayName": "Resources Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-hero"
+    },
+    "freeResources": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resources.free-resources"
+    },
+    "insights": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resources.insights"
+    },
+    "downloadCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resources.download-cta"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.faq"
+    }
+  }
+}

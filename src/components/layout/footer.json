@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "newsletter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.footer-newsletter"
+    },
+    "newsletterForm": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.hubspot-form"
+    },
+    "linkColumns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.footer-column"
+    },
+    "locations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.footer-location"
+    },
+    "socialMedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.social-link"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "legalLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.footer-link"
+    },
+    "ctaBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.footer-cta-banner"
+    }
+  }
+}

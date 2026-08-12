@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "case_study_settings",
+  "info": {
+    "singularName": "case-study-setting",
+    "pluralName": "case-study-settings",
+    "displayName": "Case Study Settings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "relatedCaseStudiesTag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "relatedCaseStudiesHeading": {
+      "type": "string"
+    },
+    "relatedCaseStudiesButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "ctaBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.cta-banner"
+    }
+  }
+}

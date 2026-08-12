@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "product_settings",
+  "info": {
+    "singularName": "product-setting",
+    "pluralName": "product-settings",
+    "displayName": "Product Settings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "testimonialsTag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "testimonialsButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "uspTag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "defaultUsps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.usp-item"
+    },
+    "faqTag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "faqHeading": {
+      "type": "string"
+    },
+    "faqHeadingHighlight": {
+      "type": "string"
+    },
+    "faqContactText": {
+      "type": "text"
+    },
+    "faqContactEmail": {
+      "type": "string"
+    }
+  }
+}

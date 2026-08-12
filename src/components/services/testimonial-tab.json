@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_services_testimonial_tabs",
+  "info": {
+    "displayName": "Testimonial Tab",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    }
+  }
+}

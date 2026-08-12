@@ -1,0 +1,60 @@
+{
+  "collectionName": "components_about_vision_mission_valueses",
+  "info": {
+    "displayName": "Vision Mission Values",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "visionIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "visionTitle": {
+      "type": "string"
+    },
+    "visionText": {
+      "type": "text"
+    },
+    "missionIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "missionTitle": {
+      "type": "string"
+    },
+    "missionText": {
+      "type": "text"
+    },
+    "valuesIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "valuesTitle": {
+      "type": "string"
+    },
+    "valuesText": {
+      "type": "text"
+    }
+  }
+}

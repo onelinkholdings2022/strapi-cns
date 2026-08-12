@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_slide_buttons",
+  "info": {
+    "displayName": "Slide Button",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "defaultLabel": {
+      "type": "string"
+    },
+    "hoverLabel": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "outline"
+      ],
+      "default": "primary"
+    }
+  }
+}

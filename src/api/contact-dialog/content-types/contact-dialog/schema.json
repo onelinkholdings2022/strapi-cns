@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_dialogs",
+  "info": {
+    "singularName": "contact-dialog",
+    "pluralName": "contact-dialogs",
+    "displayName": "Contact Dialog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headingLine1": {
+      "type": "string"
+    },
+    "headingLine2": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "contactLabel": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.hubspot-form"
+    }
+  }
+}

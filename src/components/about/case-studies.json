@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_about_case_studieses",
+  "info": {
+    "displayName": "About Case Studies",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "title": {
+      "type": "string"
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "featuredCaseStudies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::case-study.case-study"
+    }
+  }
+}

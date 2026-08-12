@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "sourcingServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.sourcing-services"
+    },
+    "whyChooseUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.why-choose-us"
+    },
+    "caseStudies": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.case-studies"
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.partners"
+    },
+    "featuredResources": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.featured-resources"
+    },
+    "missionVideo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.mission-video"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.faq"
+    }
+  }
+}

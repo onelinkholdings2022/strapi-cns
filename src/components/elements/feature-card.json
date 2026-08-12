@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_elements_feature_cards",
+  "info": {
+    "displayName": "Feature Card",
+    "icon": "puzzle"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "large",
+        "small"
+      ],
+      "default": "small"
+    }
+  }
+}

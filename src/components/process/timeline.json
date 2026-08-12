@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_process_timelines",
+  "info": {
+    "displayName": "Process Timeline",
+    "icon": "stack"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "process.timeline-step"
+    }
+  }
+}

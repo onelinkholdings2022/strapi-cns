@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_footer_newsletters",
+  "info": {
+    "displayName": "Footer Newsletter",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "buttonLabel": {
+      "type": "string"
+    }
+  }
+}

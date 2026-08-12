@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_about_timelines",
+  "info": {
+    "displayName": "Timeline",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "shipImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.timeline-item"
+    }
+  }
+}

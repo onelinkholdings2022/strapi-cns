@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_contact_info_items",
+  "info": {
+    "displayName": "Contact Info Item",
+    "icon": "information"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "text"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

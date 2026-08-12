@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_footer_locations",
+  "info": {
+    "displayName": "Footer Location",
+    "icon": "pinMap"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

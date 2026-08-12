@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_featured_resourceses",
+  "info": {
+    "displayName": "Featured Resources",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "title": {
+      "type": "string"
+    },
+    "titleHighlight": {
+      "type": "string"
+    },
+    "viewAllButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "featuredResources": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::resource.resource"
+    }
+  }
+}

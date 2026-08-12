@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_services_processes",
+  "info": {
+    "displayName": "Process",
+    "icon": "stack"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.process-step"
+    }
+  }
+}

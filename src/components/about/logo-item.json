@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_logo_items",
+  "info": {
+    "displayName": "Logo Item",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_title_segments",
+  "info": {
+    "displayName": "Title Segment",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "highlight": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_why_choose_uses",
+  "info": {
+    "displayName": "Why Choose Us",
+    "icon": "shield"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "title": {
+      "type": "string"
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.feature-card"
+    }
+  }
+}

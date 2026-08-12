@@ -1,0 +1,104 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "cardDescription": {
+      "type": "text"
+    },
+    "cardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heroDescription": {
+      "type": "text"
+    },
+    "heroButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "sourceTag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "sourceHeading": {
+      "type": "string"
+    },
+    "sourceDescription": {
+      "type": "text"
+    },
+    "sourceItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.source-item"
+    },
+    "testimonialsHeading": {
+      "type": "string"
+    },
+    "uspHeading": {
+      "type": "string"
+    },
+    "uspImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "usps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.usp-item"
+    },
+    "faqItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.faq-item"
+    },
+    "ctaBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.cta-banner"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

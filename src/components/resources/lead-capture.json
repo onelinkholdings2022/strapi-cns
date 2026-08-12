@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_resources_lead_captures",
+  "info": {
+    "displayName": "Lead Capture",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "buttonLabel": {
+      "type": "string"
+    }
+  }
+}

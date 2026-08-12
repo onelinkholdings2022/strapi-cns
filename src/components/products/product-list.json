@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_products_product_lists",
+  "info": {
+    "displayName": "Product List",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tag"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cardButtonLabel": {
+      "type": "string"
+    }
+  }
+}
