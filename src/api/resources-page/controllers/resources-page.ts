@@ -1,3 +1,11 @@
-import { factories } from '@strapi/strapi';
+import { factories } from "@strapi/strapi";
+import { buildDeepPopulate } from "../../../utils/deep-populate";
 
-export default factories.createCoreController('api::resources-page.resources-page');
+const UID = "api::resources-page.resources-page";
+
+export default factories.createCoreController(UID, ({ strapi }) => ({
+  async find(ctx) {
+    ctx.query = { ...ctx.query, populate: buildDeepPopulate(strapi, UID) };
+    return super.find(ctx);
+  },
+}));

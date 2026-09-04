@@ -1,0 +1,767 @@
+[
+  {
+    "type": "product.sourceItems not seeded (text missing, not just image)",
+    "slug": "automotive-machinery",
+    "detail": "12 source items exist in the clone (title+image) but api::product.product[slug=automotive-machinery] has an empty sourceItems repeatable component — only bags-cases/furniture/packaging got full PRODUCT_DETAIL in seed-collections.js. Full title+image list available below if you want to create them.",
+    "items": [
+      {
+        "title": "Replacement Parts",
+        "image": "china-sourcing-replacement-parts.png"
+      },
+      {
+        "title": "Electrical Components",
+        "image": "china-sourcing-electrical-components.png"
+      },
+      {
+        "title": "Fluids and Lubricants",
+        "image": "china-sourcing-fluids-and-lubricants.png"
+      },
+      {
+        "title": "Filters",
+        "image": "china-sourcing-filters.png"
+      },
+      {
+        "title": "Tires and Wheels",
+        "image": "china-sourcing-tires-and-wheels.png"
+      },
+      {
+        "title": "Auto Body Parts",
+        "image": "china-sourcing-auto-body-parts.png"
+      },
+      {
+        "title": "Interior Accessories",
+        "image": "china-sourcing-interior-accessories.png"
+      },
+      {
+        "title": "Performance Parts",
+        "image": "china-sourcing-performance-parts.png"
+      },
+      {
+        "title": "Maintenance Tools",
+        "image": "china-sourcing-maintenance-tools.png"
+      },
+      {
+        "title": "Car Care Products",
+        "image": "china-sourcing-car-care-products.png"
+      },
+      {
+        "title": "OEM Parts",
+        "image": "china-sourcing-oem-parts.png"
+      },
+      {
+        "title": "Aftermarket Parts",
+        "image": "china-sourcing-aftermarket-parts.png"
+      }
+    ]
+  },
+  {
+    "type": "product.sourceItems not seeded (text missing, not just image)",
+    "slug": "bedding-home",
+    "detail": "12 source items exist in the clone (title+image) but api::product.product[slug=bedding-home] has an empty sourceItems repeatable component — only bags-cases/furniture/packaging got full PRODUCT_DETAIL in seed-collections.js. Full title+image list available below if you want to create them.",
+    "items": [
+      {
+        "title": "Bedding Sets",
+        "image": "china-sourcing-bedding-sets.png"
+      },
+      {
+        "title": "Pillows",
+        "image": "china-sourcing-pillows.png"
+      },
+      {
+        "title": "Blankets and Throws",
+        "image": "china-sourcing-blankets-and-throws.png"
+      },
+      {
+        "title": "Mattress Toppers and Protectors",
+        "image": "china-sourcing-mattress-toppers-and-protectors.png"
+      },
+      {
+        "title": "Bedspreads and Coverlets",
+        "image": "china-sourcing-bedspreads-and-coverlets.png"
+      },
+      {
+        "title": "Bedroom Furniture",
+        "image": "china-sourcing-bedroom-furniture-1.png"
+      },
+      {
+        "title": "Bath Linens",
+        "image": "china-sourcing-bath-linens.png"
+      },
+      {
+        "title": "Home Decor",
+        "image": "china-sourcing-home-decor.png"
+      },
+      {
+        "title": "Table Linens",
+        "image": "china-sourcing-table-linens.png"
+      },
+      {
+        "title": "Kitchen Linens",
+        "image": "china-sourcing-kitchen-linens.png"
+      },
+      {
+        "title": "Outdoor and Patio Accessories",
+        "image": "china-sourcing-outdoor-and-patio-accessories.png"
+      },
+      {
+        "title": "Baby and Kids Bedding",
+        "image": "china-sourcing-baby-and-kids-bedding.png"
+      }
+    ]
+  },
+  {
+    "type": "product.sourceItems not seeded (text missing, not just image)",
+    "slug": "building-materials",
+    "detail": "8 source items exist in the clone (title+image) but api::product.product[slug=building-materials] has an empty sourceItems repeatable component — only bags-cases/furniture/packaging got full PRODUCT_DETAIL in seed-collections.js. Full title+image list available below if you want to create them.",
+    "items": [
+      {
+        "title": "Structural Materials",
+        "image": "china-sourcing-structural-materials.png"
+      },
+      {
+        "title": "Roofing Materials",
+        "image": "china-sourcing-roofing-materials.png"
+      },
+      {
+        "title": "Exterior Finishing Materials",
+        "image": "china-sourcing-exterior-finishing-materials.png"
+      },
+      {
+        "title": "Windows and Doors",
+        "image": "china-sourcing-windows-and-doors.png"
+      },
+      {
+        "title": "Floor Tiles",
+        "image": "china-sourcing-floor-tiles.png"
+      },
+      {
+        "title": "Hardwood Flooring",
+        "image": "china-sourcing-hardwood-flooring.png"
+      },
+      {
+        "title": "Plumbing and Electrical Materials",
+        "image": "china-sourcing-plumbing-and-electrical-materials.png"
+      },
+      {
+        "title": "Specialty Construction Materials",
+        "image": "china-sourcing-specialty-construction-materials.png"
+      }
+    ]
+  },
+  {
+    "type": "product.sourceItems not seeded (text missing, not just image)",
+    "slug": "chemicals-cleaning",
+    "detail": "4 source items exist in the clone (title+image) but api::product.product[slug=chemicals-cleaning] has an empty sourceItems repeatable component — only bags-cases/furniture/packaging got full PRODUCT_DETAIL in seed-collections.js. Full title+image list available below if you want to create them.",
+    "items": [
+      {
+        "title": "Cleaning Chemicals",
+        "image": "china-sourcing-cleaning-chemicals.png"
+      },
+      {
+        "title": "Sanitizing and Hand Hygiene",
+        "image": "china-sourcing-sanitizing-and-hand-hygiene.png"
+      },
+      {
+        "title": "Industrial and Specialized Cleaning",
+        "image": "china-sourcing-industrial-and-specialized-cleaning.png"
+      },
+      {
+        "title": "Specialty Cleaning Products",
+        "image": "china-sourcing-specialty-cleaning-products.png"
+      }
+    ]
+  },
+  {
+    "type": "product.sourceItems not seeded (text missing, not just image)",
+    "slug": "corporate-promotional-products",
+    "detail": "12 source items exist in the clone (title+image) but api::product.product[slug=corporate-promotional-products] has an empty sourceItems repeatable component — only bags-cases/furniture/packaging got full PRODUCT_DETAIL in seed-collections.js. Full title+image list available below if you want to create them.",
+    "items": [
+      {
+        "title": "Branded Apparel",
+        "image": "china-sourcing-branded-apparel.png"
+      },
+      {
+        "title": "Travel Accessories",
+        "image": "china-sourcing-travel-accessories.png"
+      },
+      {
+        "title": "Writing Instruments",
+        "image": "china-sourcing-writing-instruments.png"
+      },
+      {
+        "title": "Drinkware",
+        "image": "china-sourcing-drinkware.png"
+      },
+      {
+        "title": "Tech Gadgets",
+        "image": "china-sourcing-tech-gadgets.png"
+      },
+      {
+        "title": "Office Supplies",
+        "image": "china-sourcing-office-supplies.png"
+      },
+      {
+        "title": "Bags and Totes",
+        "image": "china-sourcing-bags-and-totes.png"
+      },
+      {
+        "title": "Keychains",
+        "image": "china-sourcing-keychains.png"
+      },
+      {
+        "title": "Calendars and Planners",
+        "image": "china-sourcing-calendars-and-planners.png"
+      },
+      {
+        "title": "Umbrellas",
+        "image": "china-sourcing-umbrellas.png"
+      },
+      {
+        "title": "Health and Wellness Products",
+        "image": "china-sourcing-health-and-wellness-products.png"
+      },
+      {
+        "title": "Environmental and Sustainable Products",
+        "image": "china-sourcing-environmental-and-sustainable-products.png"
+      }
+    ]
+  },
+  {
+    "type": "product.sourceItems not seeded (text missing, not just image)",
+    "slug": "food-drinks",
+    "detail": "12 source items exist in the clone (title+image) but api::product.product[slug=food-drinks] has an empty sourceItems repeatable component — only bags-cases/furniture/packaging got full PRODUCT_DETAIL in seed-collections.js. Full title+image list available below if you want to create them.",
+    "items": [
+      {
+        "title": "Rice and commodities",
+        "image": "china-sourcing-rice-and-commodities.png"
+      },
+      {
+        "title": "Frozen fruit",
+        "image": "china-sourcing-frozen-fruit.png"
+      },
+      {
+        "title": "Canned fruit",
+        "image": "china-sourcing-canned-fruit.png"
+      },
+      {
+        "title": "Dried fruits",
+        "image": "china-sourcing-dried-fruits.png"
+      },
+      {
+        "title": "Frozen meat and seafood",
+        "image": "china-sourcing-frozen-meat-and-seafood.png"
+      },
+      {
+        "title": "Canned meat and seafood",
+        "image": "china-sourcing-canned-meat-and-seafood.png"
+      },
+      {
+        "title": "Ready-to-eat",
+        "image": "china-sourcing-ready-to-eat.png"
+      },
+      {
+        "title": "Organic products",
+        "image": "china-sourcing-organic-products.png"
+      },
+      {
+        "title": "Condiments",
+        "image": "china-sourcing-condiments.png"
+      },
+      {
+        "title": "Snacks",
+        "image": "china-sourcing-snacks.png"
+      },
+      {
+        "title": "Beverages",
+        "image": "china-sourcing-beverages.png"
+      },
+      {
+        "title": "Seasonal items",
+        "image": "china-sourcing-seasonal-items.png"
+      }
+    ]
+  },
+  {
+    "type": "product.sourceItems not seeded (text missing, not just image)",
+    "slug": "gym-fitness",
+    "detail": "8 source items exist in the clone (title+image) but api::product.product[slug=gym-fitness] has an empty sourceItems repeatable component — only bags-cases/furniture/packaging got full PRODUCT_DETAIL in seed-collections.js. Full title+image list available below if you want to create them.",
+    "items": [
+      {
+        "title": "Exercise Equipment",
+        "image": "china-sourcing-exercise-equipment.png"
+      },
+      {
+        "title": "Strength Training",
+        "image": "china-sourcing-strength-training.png"
+      },
+      {
+        "title": "Functional Fitness",
+        "image": "china-sourcing-functional-fitness.png"
+      },
+      {
+        "title": "Yoga and Pilates",
+        "image": "china-sourcing-yoga-and-pilates.png"
+      },
+      {
+        "title": "Recovery and Wellness",
+        "image": "china-sourcing-recovery-and-wellness.png"
+      },
+      {
+        "title": "Accessories",
+        "image": "china-sourcing-accessories.png"
+      },
+      {
+        "title": "Cardio Machines",
+        "image": "china-sourcing-cardio-machines.png"
+      },
+      {
+        "title": "Custom Branding",
+        "image": "china-sourcing-custom-branding.png"
+      }
+    ]
+  },
+  {
+    "type": "product.sourceItems not seeded (text missing, not just image)",
+    "slug": "hardware-tools",
+    "detail": "8 source items exist in the clone (title+image) but api::product.product[slug=hardware-tools] has an empty sourceItems repeatable component — only bags-cases/furniture/packaging got full PRODUCT_DETAIL in seed-collections.js. Full title+image list available below if you want to create them.",
+    "items": [
+      {
+        "title": "Power Tools",
+        "image": "china-sourcing-power-tools.png"
+      },
+      {
+        "title": "Hand Tools",
+        "image": "china-sourcing-hand-tools.png"
+      },
+      {
+        "title": "Cutting Tools",
+        "image": "china-sourcing-cutting-tools.png"
+      },
+      {
+        "title": "Fasteners and Hardware",
+        "image": "china-sourcing-fasteners-and-hardware.png"
+      },
+      {
+        "title": "Measuring and Layout Tools",
+        "image": "china-sourcing-measuring-and-layout-tools.png"
+      },
+      {
+        "title": "Painting and Finishing Tools",
+        "image": "china-sourcing-painting-and-finishing-tools.png"
+      },
+      {
+        "title": "Safety Equipment",
+        "image": "china-sourcing-safety-equipment.png"
+      },
+      {
+        "title": "Storage and Organization",
+        "image": "china-sourcing-storage-and-organization.png"
+      }
+    ]
+  },
+  {
+    "type": "product.sourceItems not seeded (text missing, not just image)",
+    "slug": "hospitality-items",
+    "detail": "8 source items exist in the clone (title+image) but api::product.product[slug=hospitality-items] has an empty sourceItems repeatable component — only bags-cases/furniture/packaging got full PRODUCT_DETAIL in seed-collections.js. Full title+image list available below if you want to create them.",
+    "items": [
+      {
+        "title": "Bedroom Items",
+        "image": "china-sourcing-bedroom-items.png"
+      },
+      {
+        "title": "Bathroom Items",
+        "image": "china-sourcing-bathroom-items.png"
+      },
+      {
+        "title": "In-Room Electronics",
+        "image": "china-sourcing-in-room-electronics.png"
+      },
+      {
+        "title": "Room Amenities",
+        "image": "china-sourcing-room-amenities.png"
+      },
+      {
+        "title": "Conference/Meeting Room Items",
+        "image": "china-sourcing-conference-meeting-room-items.png"
+      },
+      {
+        "title": "Hotel Linens and Uniforms",
+        "image": "china-sourcing-hotel-linens-and-uniforms.png"
+      },
+      {
+        "title": "Outdoor Furnishings",
+        "image": "china-sourcing-outdoor-furnishings.png"
+      },
+      {
+        "title": "Guest Services",
+        "image": "china-sourcing-guest-services.png"
+      }
+    ]
+  },
+  {
+    "type": "product.sourceItems not seeded (text missing, not just image)",
+    "slug": "household-appliances",
+    "detail": "8 source items exist in the clone (title+image) but api::product.product[slug=household-appliances] has an empty sourceItems repeatable component — only bags-cases/furniture/packaging got full PRODUCT_DETAIL in seed-collections.js. Full title+image list available below if you want to create them.",
+    "items": [
+      {
+        "title": "Kitchen Appliances",
+        "image": "china-sourcing-kitchen-appliances.png"
+      },
+      {
+        "title": "Laundry Appliances",
+        "image": "china-sourcing-laundry-appliances.png"
+      },
+      {
+        "title": "Cleaning Appliances",
+        "image": "china-sourcing-cleaning-appliances.png"
+      },
+      {
+        "title": "Climate Control Appliances",
+        "image": "china-sourcing-climate-control-appliances.png"
+      },
+      {
+        "title": "Personal Care Appliances",
+        "image": "china-sourcing-personal-care-appliances.png"
+      },
+      {
+        "title": "Entertainment and Communication Appliances",
+        "image": "china-sourcing-entertainment-and-communication-appliances.png"
+      },
+      {
+        "title": "Small Kitchen Appliances",
+        "image": "china-sourcing-small-kitchen-appliances.png"
+      },
+      {
+        "title": "Smart Home Appliances",
+        "image": "china-sourcing-smart-home-appliances.png"
+      }
+    ]
+  },
+  {
+    "type": "product.sourceItems not seeded (text missing, not just image)",
+    "slug": "point-of-sale",
+    "detail": "13 source items exist in the clone (title+image) but api::product.product[slug=point-of-sale] has an empty sourceItems repeatable component — only bags-cases/furniture/packaging got full PRODUCT_DETAIL in seed-collections.js. Full title+image list available below if you want to create them.",
+    "items": [
+      {
+        "title": "Signage",
+        "image": "china-sourcing-signage.png"
+      },
+      {
+        "title": "Display Stands",
+        "image": "china-sourcing-display-stands.png"
+      },
+      {
+        "title": "Interactive Displays",
+        "image": "china-sourcing-interactive-displays.png"
+      },
+      {
+        "title": "Packaging Enhancements",
+        "image": "china-sourcing-packaging-enhancements.png"
+      },
+      {
+        "title": "In-Store Audio",
+        "image": "china-sourcing-in-store-audio.png"
+      },
+      {
+        "title": "Floor Graphics",
+        "image": "china-sourcing-floor-graphics.png"
+      },
+      {
+        "title": "Cash Register Displays",
+        "image": "china-sourcing-cash-register-displays.png"
+      },
+      {
+        "title": "Screens or Displays at Checkout",
+        "image": "china-sourcing-screens-or-displays-at-checkout.png"
+      },
+      {
+        "title": "Sampling Stations",
+        "image": "china-sourcing-sampling-stations.png"
+      },
+      {
+        "title": "Lighting Enhancements",
+        "image": "china-sourcing-lighting-enhancements.png"
+      },
+      {
+        "title": "Interactive Kiosks",
+        "image": "china-sourcing-interactive-kiosks.png"
+      },
+      {
+        "title": "Queue Management",
+        "image": "china-sourcing-queue-management.png"
+      },
+      {
+        "title": "Product Dispensers",
+        "image": "china-sourcing-product-dispensers.png"
+      }
+    ]
+  },
+  {
+    "type": "product.sourceItems not seeded (text missing, not just image)",
+    "slug": "textiles-garments",
+    "detail": "6 source items exist in the clone (title+image) but api::product.product[slug=textiles-garments] has an empty sourceItems repeatable component — only bags-cases/furniture/packaging got full PRODUCT_DETAIL in seed-collections.js. Full title+image list available below if you want to create them.",
+    "items": [
+      {
+        "title": "Active Wear",
+        "image": "china-sourcing-active-wear.png"
+      },
+      {
+        "title": "Sleep Wear",
+        "image": "china-sourcing-sleep-wear.png"
+      },
+      {
+        "title": "Work Wear",
+        "image": "china-sourcing-work-wear.png"
+      },
+      {
+        "title": "Leisure Wear",
+        "image": "china-sourcing-leisure-wear.png"
+      },
+      {
+        "title": "Casual Wear",
+        "image": "china-sourcing-casual-wear.png"
+      },
+      {
+        "title": "Formal Wear",
+        "image": "china-sourcing-formal-wear.png"
+      }
+    ]
+  },
+  {
+    "type": "resource has zero captured content",
+    "slug": "pre-production-sample-checklist",
+    "detail": "Not present in article-pages.json at all — the live page for this resource was never scraped (likely gated). No image available to attach."
+  },
+  {
+    "type": "resource has zero captured content",
+    "slug": "sourcing-timeline-template",
+    "detail": "Not present in article-pages.json at all — the live page for this resource was never scraped (likely gated). No image available to attach."
+  },
+  {
+    "type": "resource has zero captured content",
+    "slug": "manufacturer-vetting-checklist",
+    "detail": "Not present in article-pages.json at all — the live page for this resource was never scraped (likely gated). No image available to attach."
+  },
+  {
+    "type": "resource has zero captured content",
+    "slug": "rfq-template",
+    "detail": "Not present in article-pages.json at all — the live page for this resource was never scraped (likely gated). No image available to attach."
+  },
+  {
+    "type": "testimonial not seeded for this product (no Strapi entry exists)",
+    "slug": "bedding-home",
+    "detail": "2 testimonial(s) exist in the clone for this product but api::testimonial.testimonial has no entries connected to it — the TESTIMONIALS array in seed-collections.js never included this product. Data available if you want to create them:",
+    "items": [
+      {
+        "name": "Ella Thompson",
+        "role": "Sourcing Lead, Haven Stays (Australia)",
+        "quote": "We source premium linen sets for boutique hotels in Australia. China Sourcing Co helped us find OEKO-TEX certified suppliers who could customize thread count, color palettes, and packaging. The consistency in quality and their ability to manage small-batch orders set them apart.",
+        "image": "china-sourcing-testimonial-bedding-home-300x204.png",
+        "authorAvatar": "customer-testimonials-25.png"
+      },
+      {
+        "name": "Rechael Ortiz",
+        "role": "Co-Founder, Luno Living (Spain)",
+        "quote": "Our homeware brand needed private label duvet covers and cushion sets with strict sustainability standards. China Sourcing Co not only audited the factories but also proposed eco-friendly materials we hadn’t considered. Their team thinks ahead and that’s invaluable in retail.",
+        "image": "china-sourcing-testimonial-bedding-home-1-300x204.png",
+        "authorAvatar": "customer-testimonials-26.png"
+      }
+    ]
+  },
+  {
+    "type": "testimonial not seeded for this product (no Strapi entry exists)",
+    "slug": "building-materials",
+    "detail": "2 testimonial(s) exist in the clone for this product but api::testimonial.testimonial has no entries connected to it — the TESTIMONIALS array in seed-collections.js never included this product. Data available if you want to create them:",
+    "items": [
+      {
+        "name": "Tez Zayed",
+        "role": "Head of Procurement, Horizon Construction Group (UAE)",
+        "quote": "During the procurement of facade panels for a commercial complex in Dubai, China Sourcing Co's comprehensive handling of technical specifications, fire rating certifications, and long-distance shipping packaging was particularly commendable. The shipment arrived punctually, meeting all requirements without incident.",
+        "image": "china-sourcing-testimonial-building-materials-1-300x204.png",
+        "authorAvatar": "customer-testimonials-3.png"
+      },
+      {
+        "name": "Lorenzo Bianchi",
+        "role": "Director of Operations, CasaLinea Projects (Italy)",
+        "quote": "Previously, the acquisition of large-scale tile supplies presented significant challenges. Through collaboration with China Sourcing Co, the sourcing of three distinct product lines: porcelain, mosaic, and wood-look tiles, was consolidated into a unified project. This initiative resulted in a 15% reduction in total landed costs and a substantial decrease in coordination time.",
+        "image": "china-sourcing-testimonial-building-materials-1-1-300x204.png",
+        "authorAvatar": "customer-testimonials-4.png"
+      }
+    ]
+  },
+  {
+    "type": "testimonial not seeded for this product (no Strapi entry exists)",
+    "slug": "chemicals-cleaning",
+    "detail": "2 testimonial(s) exist in the clone for this product but api::testimonial.testimonial has no entries connected to it — the TESTIMONIALS array in seed-collections.js never included this product. Data available if you want to create them:",
+    "items": [
+      {
+        "name": "Hana Ferretti",
+        "role": "Supply Chain Lead, VitaNova Stores (Italy)",
+        "quote": "Acquiring regulatory-compliant cleaning agents for our EU retail expansion presented significant challenges until our collaboration with China Sourcing Co. They furnished comprehensive Safety Data Sheets, REACH and CLP documentation for each product and facilitated labeling adjustments for customs adherence.",
+        "image": "china-sourcing-testimonial-chemicals-cleaning-1-300x204.png",
+        "authorAvatar": "customer-testimonials-5.png"
+      },
+      {
+        "name": "Peter Wang",
+        "role": "Operations Supervisor, Long Side Logistics (Singapore)",
+        "quote": "A transition to a range of environmentally sustainable industrial degreasers procured through China Sourcing Co resulted in an 18% cost reduction. Notably, the product quality surpassed that of our former German supplier. The procurement process was transparent and devoid of unexpected complications.",
+        "image": "china-sourcing-testimonial-chemicals-cleaning-300x204.png",
+        "authorAvatar": "customer-testimonials-6.png"
+      }
+    ]
+  },
+  {
+    "type": "testimonial not seeded for this product (no Strapi entry exists)",
+    "slug": "food-drinks",
+    "detail": "2 testimonial(s) exist in the clone for this product but api::testimonial.testimonial has no entries connected to it — the TESTIMONIALS array in seed-collections.js never included this product. Data available if you want to create them:",
+    "items": [
+      {
+        "name": "Naomi Tanaka",
+        "role": "Founder, Midori & Co. (Korea)",
+        "quote": "When procuring artisanal snacks for our Japanese-style gift baskets, China Sourcing Co facilitated the identification of authentic Original Equipment Manufacturer (OEM) producers and provided valuable assistance with shelf-life testing and bilingual labeling.",
+        "image": "china-sourcing-testimonial-food-drink-products-300x204.png",
+        "authorAvatar": "customer-testimonials-12.png"
+      },
+      {
+        "name": "Jacob Linwood",
+        "role": "CEO, Drip District (Australia)",
+        "quote": "For our startup endeavoring to launch cold brew in aluminum cans, both reliability and expediency were paramount. They facilitated an introduction to a Hazard Analysis Critical Control Point (HACCP)-certified co-packer located in Fujian, who possessed the capability to manage both formulation and export-ready packaging.",
+        "image": "china-sourcing-testimonial-food-drink-products-1-300x204.png",
+        "authorAvatar": "customer-testimonials-11.png"
+      }
+    ]
+  },
+  {
+    "type": "testimonial not seeded for this product (no Strapi entry exists)",
+    "slug": "hardware-tools",
+    "detail": "2 testimonial(s) exist in the clone for this product but api::testimonial.testimonial has no entries connected to it — the TESTIMONIALS array in seed-collections.js never included this product. Data available if you want to create them:",
+    "items": [
+      {
+        "name": "Kady Kenedy",
+        "role": "Procurement Manager, StrucWerk GmbH (Germany)",
+        "quote": "StrucWerk GmbH required a substantial quantity of industrial-grade fasteners. Local pricing structures were significantly impacting profit margins. China Sourcing Co facilitated the identification of a supplier based in Zhejiang, who was already servicing European Original Equipment Manufacturers. After six months of import, no quality discrepancies have been noted.",
+        "image": "china-sourcing-testimonial-hardware-tools-300x204.png",
+        "authorAvatar": "customer-testimonials-15.png"
+      },
+      {
+        "name": "Isabella Chen",
+        "role": "Founder, TeknoFix Tools (Australia)",
+        "quote": "TeknoFix Tools required various tools, including custom wrenches and precision screwdriver sets. All items were delivered punctually, featuring laser-etched logos and packaging compliant with European Union market regulations. The on-site quality control reports were comprehensive and delivered promptly.",
+        "image": "china-sourcing-testimonial-hardware-tools-1-300x204.png",
+        "authorAvatar": "customer-testimonials-16.png"
+      }
+    ]
+  },
+  {
+    "type": "testimonial not seeded for this product (no Strapi entry exists)",
+    "slug": "textiles-garments",
+    "detail": "2 testimonial(s) exist in the clone for this product but api::testimonial.testimonial has no entries connected to it — the TESTIMONIALS array in seed-collections.js never included this product. Data available if you want to create them:",
+    "items": [
+      {
+        "name": "Amanda Liu",
+        "role": "Product Director, TerraFit (USA)",
+        "quote": "We were developing a sustainable activewear line and needed a supplier who could deliver both performance and eco-friendly materials. China Sourcing Co connected us with a factory specializing in recycled nylon and handled all the fit samples and compliance checks. The results matched exactly what we designed.",
+        "image": "china-sourcing-testimonial-textiles-garments-300x204.png",
+        "authorAvatar": "customer-testimonials-27.png"
+      },
+      {
+        "name": "Julien Morel",
+        "role": "Sourcing Manager, Voie Blanche (France)",
+        "quote": "As a fast-growing fashion brand, lead time and consistency are everything. China Sourcing Co helped us diversify our supplier base in Guangzhou and monitored production weekly. They caught fabric shade issues before shipping which saved our launch schedule.",
+        "image": "china-sourcing-testimonial-textiles-garments-1-300x204.png",
+        "authorAvatar": "customer-testimonials-28.png"
+      }
+    ]
+  },
+  {
+    "type": "api::partner.partner has ZERO seeded entries",
+    "detail": "42 partner logo images exist in the clone (7 categories x 6 logos, src/data/site.ts partnerTabs) but no seed script ever created Partner entries — only the 7 partner-category entries exist. Media cannot be attached to entries that do not exist. Creating 42 Partner entries (name TBD, category relation, logo) is required before this media can be attached — this is new data, not just an image attach.",
+    "categories": [
+      {
+        "category": "Furniture & Interior",
+        "logos": [
+          "furniture-factory-logo-1-1-300x82.png",
+          "furniture-factory-logo-300x82.png",
+          "furniture-factory-logo-5-2-300x82.png",
+          "furniture-factory-logo-3-300x82.png",
+          "furniture-factory-logo-4-300x82.png",
+          "furniture-factory-logo-2-1-300x82.png"
+        ]
+      },
+      {
+        "category": "Promotional Products",
+        "logos": [
+          "promotional-products-factory-logo-1-300x82.png",
+          "promotional-products-factory-logo-2-300x82.png",
+          "promotional-products-factory-logo-3-300x82.png",
+          "promotional-products-factory-logo-4-300x82.png",
+          "promotional-products-factory-logo-5-300x82.png",
+          "promotional-products-factory-logo-6-300x82.png"
+        ]
+      },
+      {
+        "category": "Gym & Fitness",
+        "logos": [
+          "gym-fitness-factory-logo-1-300x82.png",
+          "gym-fitness-factory-logo-2-300x82.png",
+          "gym-fitness-factory-logo-3-300x82.png",
+          "gym-fitness-factory-logo-4-300x82.png",
+          "gym-fitness-factory-logo-5-300x82.png",
+          "gym-fitness-factory-logo-6-300x82.png"
+        ]
+      },
+      {
+        "category": "Point of Sale",
+        "logos": [
+          "point-of-sale-factory-logo-1-300x82.png",
+          "point-of-sale-factory-logo-2-300x82.png",
+          "point-of-sale-factory-logo-3-300x82.png",
+          "point-of-sale-factory-logo-4-300x82.png",
+          "point-of-sale-factory-logo-5-300x82.png",
+          "point-of-sale-factory-logo-6-300x82.png"
+        ]
+      },
+      {
+        "category": "Machinery",
+        "logos": [
+          "machinery-factory-logo-1-300x82.png",
+          "machinery-factory-logo-2-300x82.png",
+          "machinery-factory-logo-3-300x82.png",
+          "machinery-factory-logo-4-300x82.png",
+          "machinery-factory-logo-5-300x82.png",
+          "machinery-factory-logo-6-300x82.png"
+        ]
+      },
+      {
+        "category": "Hospitality Items",
+        "logos": [
+          "hospitality-factory-logo-1-300x82.png",
+          "hospitality-factory-logo-2-300x82.png",
+          "hospitality-factory-logo-3-300x82.png",
+          "hospitality-factory-logo-4-300x82.png",
+          "hospitality-factory-logo-5-300x82.png",
+          "hospitality-factory-logo-6-300x82.png"
+        ]
+      },
+      {
+        "category": "Household Appliances",
+        "logos": [
+          "household-appliances-logo-1-300x82.png",
+          "household-appliances-logo-2-300x82.png",
+          "household-appliances-logo-3-300x82.png",
+          "household-appliances-logo-4-300x82.png",
+          "household-appliances-logo-5-300x82.png",
+          "household-appliances-logo-6-300x82.png"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "api::contact-dialog.contact-dialog.image — no source identified",
+    "detail": "Schema has an image field but no corresponding image reference was found anywhere in the clone data for the header contact modal. Left unmapped rather than guessed."
+  },
+  {
+    "type": "No blog/post content-type exists in strapi-cns at all",
+    "detail": "129 blog posts (of the 141 'article pages' the clone downloaded) have full content + images in chinasourcing-clone (src/data/content/posts.json, article-pages.json) but there is no matching Strapi content-type — only the 12 'resource' (downloadable-guide) entries exist. homepage.featuredResources / services-page.resources / resource-setting relations only ever pointed at 3 of the 12 seeded resources, never at blog posts. This is a content-type gap, not a media gap — attaching images for the 129 posts requires a new Strapi content-type (e.g. a 'blog-post' collection) to be created and seeded first."
+  }
+]

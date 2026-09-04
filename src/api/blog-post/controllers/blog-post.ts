@@ -1,7 +1,7 @@
 import { factories } from "@strapi/strapi";
 import { buildDeepPopulate } from "../../../utils/deep-populate";
 
-const UID = "api::partner.partner";
+const UID = "api::blog-post.blog-post";
 
 export default factories.createCoreController(UID, ({ strapi }) => ({
   async find(ctx) {

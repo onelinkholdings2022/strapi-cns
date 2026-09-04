@@ -1,0 +1,1077 @@
+[
+  {
+    "contentType": "api::product.product",
+    "match": {
+      "field": "slug",
+      "value": "automotive-machinery"
+    },
+    "media": {
+      "cardImage": "automotive-and-machinery-1.png",
+      "heroImage": "automotive-and-machinery.png",
+      "uspImage": "china-sourcing-automotive-machinery-usp.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::product.product",
+    "match": {
+      "field": "slug",
+      "value": "bags-cases"
+    },
+    "media": {
+      "cardImage": "Image-1-1.png",
+      "heroImage": "bags-and-cases.png",
+      "uspImage": "china-sourcing-bags-and-cases-usp.png",
+      "sourceItems[].image (by index, title already seeded)": [
+        "china-sourcing-luggage.png",
+        "china-sourcing-business-and-laptop-bags.png",
+        "china-sourcing-backpack.png",
+        "china-sourcing-tote-handbags.png",
+        "china-sourcing-specialty-cases.png",
+        "china-sourcing-outdoor-and-sports-bags.png",
+        "china-sourcing-storage-organization.png",
+        "china-sourcing-custom-and-promotional-bags.png"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::product.product",
+    "match": {
+      "field": "slug",
+      "value": "bedding-home"
+    },
+    "media": {
+      "cardImage": "bedding-home-1.png",
+      "heroImage": "bedding-home.png",
+      "uspImage": "chia-sourcing-bedding-home-usp.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::product.product",
+    "match": {
+      "field": "slug",
+      "value": "building-materials"
+    },
+    "media": {
+      "cardImage": "building-materials-1024x1024.png",
+      "heroImage": "building-materials-1.png",
+      "uspImage": "chia-sourcing-building-materials-usp.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::product.product",
+    "match": {
+      "field": "slug",
+      "value": "chemicals-cleaning"
+    },
+    "media": {
+      "cardImage": "chemicals-and-cleaning.png",
+      "heroImage": "chemicals-cleaning.png",
+      "uspImage": "china-sourcing-chemicals-and-cleaning-usp-2.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::product.product",
+    "match": {
+      "field": "slug",
+      "value": "corporate-promotional-products"
+    },
+    "media": {
+      "cardImage": "china-sourcing-corporate-promotional-products.png",
+      "heroImage": "corporate-promotional-products.png",
+      "uspImage": "china-sourcing-corporate-promotional-products-usp.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::product.product",
+    "match": {
+      "field": "slug",
+      "value": "food-drinks"
+    },
+    "media": {
+      "cardImage": "china-sourcing-food-and-drink.png",
+      "heroImage": "food-and-drink-products.png",
+      "uspImage": "china-sourcing-food-and-drink-products-usp.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::product.product",
+    "match": {
+      "field": "slug",
+      "value": "furniture"
+    },
+    "media": {
+      "cardImage": "china-sourcing-furniture-1.png",
+      "heroImage": "furniture-1.png",
+      "uspImage": "china-sourcing-furniture-usp.png",
+      "sourceItems[].image (by index, title already seeded)": [
+        "china-sourcing-seating-furniture.png",
+        "china-sourcing-accent-furniture.png",
+        "china-sourcing-storage-furniture.png",
+        "china-sourcing-bedroom-furniture.png",
+        "china-sourcing-outdoor-furniture-1.png",
+        "china-sourcing-children-furniture.png",
+        "china-sourcing-entertainment-furniture.png",
+        "china-sourcing-office-furniture.png"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::product.product",
+    "match": {
+      "field": "slug",
+      "value": "gym-fitness"
+    },
+    "media": {
+      "cardImage": "china-sourcing-gym-fitness.png",
+      "heroImage": "gym-and-fitness.png",
+      "uspImage": "china-sourcing-gym-fitness-products-usp.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::product.product",
+    "match": {
+      "field": "slug",
+      "value": "hardware-tools"
+    },
+    "media": {
+      "cardImage": "hardware-and-tools.png",
+      "heroImage": "hardware-tools.png",
+      "uspImage": "china-sourcing-hardware-tools-usp.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::product.product",
+    "match": {
+      "field": "slug",
+      "value": "hospitality-items"
+    },
+    "media": {
+      "cardImage": "Image-11.png",
+      "heroImage": "hospitality-items.png",
+      "uspImage": "china-sourcing-hospitality-items-usp.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::product.product",
+    "match": {
+      "field": "slug",
+      "value": "household-appliances"
+    },
+    "media": {
+      "cardImage": "Image-10.png",
+      "heroImage": "household-appliances.png",
+      "uspImage": "chia-sourcing-household-appliances-usp.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::product.product",
+    "match": {
+      "field": "slug",
+      "value": "packaging"
+    },
+    "media": {
+      "cardImage": "packaging-1.png",
+      "heroImage": "packaging.png",
+      "uspImage": "china-sourcing-chemicals-and-cleaning-usp-1.png",
+      "sourceItems[].image (by index, title already seeded)": [
+        "china-sourcing-primary-packaging.png",
+        "china-sourcing-secondary-packaging.png",
+        "Image-14-1.png",
+        "china-sourcing-flexible-packaging.png",
+        "china-sourcing-rigid-packaging.png",
+        "china-sourcing-aseptic-packaging.png",
+        "china-sourcing-vacuum-packaging.png",
+        "china-sourcing-reclosable-packaging.png",
+        "china-sourcing-biodegradable-and-compostable-packaging.png",
+        "china-sourcing-edible-packaging.png",
+        "china-sourcing-paperboard-packaging.png",
+        "china-sourcing-metal-packaging.png"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::product.product",
+    "match": {
+      "field": "slug",
+      "value": "point-of-sale"
+    },
+    "media": {
+      "cardImage": "china-sourcing-point-of-sale-1.png",
+      "heroImage": "point-of-sale.png",
+      "uspImage": "chia-sourcing-point-of-sale-usp.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::product.product",
+    "match": {
+      "field": "slug",
+      "value": "textiles-garments"
+    },
+    "media": {
+      "cardImage": "textiles-garments-1-1024x1024.png",
+      "heroImage": "textiles-and-garments.png",
+      "uspImage": "china-sourcing-textiles-garments-usp.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::service.service",
+    "match": {
+      "field": "slug",
+      "value": "custom-manufacturing"
+    },
+    "media": {
+      "cardImage": "custom-manufacturing-300x168.png",
+      "heroImage": "custom-manufacturing-1.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::service.service",
+    "match": {
+      "field": "slug",
+      "value": "freight-logistics"
+    },
+    "media": {
+      "cardImage": "freight-and-logistics-1-300x168.png",
+      "heroImage": "freight-and-logistics.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::service.service",
+    "match": {
+      "field": "slug",
+      "value": "quality-control"
+    },
+    "media": {
+      "cardImage": "china-sourcing-quality-control-300x168.png",
+      "heroImage": "quality-control-1.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::service.service",
+    "match": {
+      "field": "slug",
+      "value": "sourcing-service"
+    },
+    "media": {
+      "cardImage": "sourcing-service-300x168.png",
+      "heroImage": "sourcing-service-2.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::case-study.case-study",
+    "match": {
+      "field": "slug",
+      "value": "prestige-residential"
+    },
+    "media": {
+      "featureImage": "china-sourcing-prestige-residential.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::case-study.case-study",
+    "match": {
+      "field": "slug",
+      "value": "pillers"
+    },
+    "media": {
+      "featureImage": "Image-5-1.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::case-study.case-study",
+    "match": {
+      "field": "slug",
+      "value": "byronglow"
+    },
+    "media": {
+      "featureImage": "byronglow-2.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::case-study.case-study",
+    "match": {
+      "field": "slug",
+      "value": "echo-recovery"
+    },
+    "media": {
+      "featureImage": "Image-1.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::case-study.case-study",
+    "match": {
+      "field": "slug",
+      "value": "radiant"
+    },
+    "media": {
+      "featureImage": "Frame-4900-2-1.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::case-study.case-study",
+    "match": {
+      "field": "slug",
+      "value": "boxed-storage"
+    },
+    "media": {
+      "featureImage": "china-sourcing-boxed-storage.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::case-study.case-study",
+    "match": {
+      "field": "slug",
+      "value": "langfords-jewellers"
+    },
+    "media": {
+      "featureImage": "langfords-jewellers-logo.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::case-study.case-study",
+    "match": {
+      "field": "slug",
+      "value": "tag-apparel"
+    },
+    "media": {
+      "featureImage": "china-sourcing-tag-apparel.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::case-study.case-study",
+    "match": {
+      "field": "slug",
+      "value": "muscle-mat"
+    },
+    "media": {
+      "featureImage": "china-sourcing-muscle-mat-1-1.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::case-study.case-study",
+    "match": {
+      "field": "slug",
+      "value": "the-cabinet-hub"
+    },
+    "media": {
+      "featureImage": "the-cabinet-hub-logo.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::case-study.case-study",
+    "match": {
+      "field": "slug",
+      "value": "afis"
+    },
+    "media": {
+      "featureImage": "china-sourcing-afis.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::case-study.case-study",
+    "match": {
+      "field": "slug",
+      "value": "stockyard"
+    },
+    "media": {
+      "featureImage": "stockyard-beef-1.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::case-study.case-study",
+    "match": {
+      "field": "slug",
+      "value": "th7"
+    },
+    "media": {
+      "featureImage": "TH7-2.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::case-study.case-study",
+    "match": {
+      "field": "slug",
+      "value": "funny-aprons"
+    },
+    "media": {
+      "featureImage": "china-sourcing-funny-approns.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::resource.resource",
+    "match": {
+      "field": "slug",
+      "value": "the-hidden-profit-leak-most-ecommerce-brands-ignore"
+    },
+    "media": {
+      "featureImage": "resource-detail-fallback.png",
+      "cover": "resource-detail-fallback.png"
+    },
+    "notes": "LOW CONFIDENCE: the clone never captured a unique image for this resource — it renders a generic fallback graphic for all 8. Uploading it is cosmetically fine but it will be the same image on 8 different resources."
+  },
+  {
+    "contentType": "api::resource.resource",
+    "match": {
+      "field": "slug",
+      "value": "incoterms-explained"
+    },
+    "media": {
+      "featureImage": "resource-detail-fallback.png",
+      "cover": "resource-detail-fallback.png"
+    },
+    "notes": "LOW CONFIDENCE: the clone never captured a unique image for this resource — it renders a generic fallback graphic for all 8. Uploading it is cosmetically fine but it will be the same image on 8 different resources."
+  },
+  {
+    "contentType": "api::resource.resource",
+    "match": {
+      "field": "slug",
+      "value": "supplier-interview-questions-list"
+    },
+    "media": {
+      "featureImage": "resource-detail-fallback.png",
+      "cover": "resource-detail-fallback.png"
+    },
+    "notes": "LOW CONFIDENCE: the clone never captured a unique image for this resource — it renders a generic fallback graphic for all 8. Uploading it is cosmetically fine but it will be the same image on 8 different resources."
+  },
+  {
+    "contentType": "api::resource.resource",
+    "match": {
+      "field": "slug",
+      "value": "8-biggest-mistakes-to-avoid-when-sourcing-from-china"
+    },
+    "media": {
+      "featureImage": "resource-detail-fallback.png",
+      "cover": "resource-detail-fallback.png"
+    },
+    "notes": "LOW CONFIDENCE: the clone never captured a unique image for this resource — it renders a generic fallback graphic for all 8. Uploading it is cosmetically fine but it will be the same image on 8 different resources."
+  },
+  {
+    "contentType": "api::resource.resource",
+    "match": {
+      "field": "slug",
+      "value": "china-supplier-outreach-email-scripts"
+    },
+    "media": {
+      "featureImage": "resource-detail-fallback.png",
+      "cover": "resource-detail-fallback.png"
+    },
+    "notes": "LOW CONFIDENCE: the clone never captured a unique image for this resource — it renders a generic fallback graphic for all 8. Uploading it is cosmetically fine but it will be the same image on 8 different resources."
+  },
+  {
+    "contentType": "api::resource.resource",
+    "match": {
+      "field": "slug",
+      "value": "custom-manufacturing-requirements-template"
+    },
+    "media": {
+      "featureImage": "resource-detail-fallback.png",
+      "cover": "resource-detail-fallback.png"
+    },
+    "notes": "LOW CONFIDENCE: the clone never captured a unique image for this resource — it renders a generic fallback graphic for all 8. Uploading it is cosmetically fine but it will be the same image on 8 different resources."
+  },
+  {
+    "contentType": "api::resource.resource",
+    "match": {
+      "field": "slug",
+      "value": "quality-control-inspection-checklist"
+    },
+    "media": {
+      "featureImage": "resource-detail-fallback.png",
+      "cover": "resource-detail-fallback.png"
+    },
+    "notes": "LOW CONFIDENCE: the clone never captured a unique image for this resource — it renders a generic fallback graphic for all 8. Uploading it is cosmetically fine but it will be the same image on 8 different resources."
+  },
+  {
+    "contentType": "api::resource.resource",
+    "match": {
+      "field": "slug",
+      "value": "intro-to-china-manufacturing"
+    },
+    "media": {
+      "featureImage": "resource-detail-fallback.png",
+      "cover": "resource-detail-fallback.png"
+    },
+    "notes": "LOW CONFIDENCE: the clone never captured a unique image for this resource — it renders a generic fallback graphic for all 8. Uploading it is cosmetically fine but it will be the same image on 8 different resources."
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Sam Sheehan"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-sam-scaled.jpg"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Tom Daniels"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-tom-scaled.jpg"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Lee Abrahams"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-lee-scaled.jpg"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Janice Xu"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-janice-scaled.jpg"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Miguel Misa"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-long-miguel-scaled.jpg"
+    },
+    "notes": "Resolved from src/data/about.ts directly — filename says 'long-miguel' but the clone's own data explicitly assigns it to Miguel Misa (Long Nguyen has a separate 'long-scaled.jpg'). Not ambiguous, verified against source code."
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Kady Hoang"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-kady-scaled.jpg"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Germaine Huang"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-germaine-scaled.jpg"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Jessie Yi"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-jessie-scaled.jpg"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Nga Van"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-nga-scaled.jpg"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Quang Ho"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-quang-scaled.jpg"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Bheki Mhlanga"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-bheki-scaled.jpg"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Jennifer Zhuang"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-jenifer-scaled.jpg"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Thao Ngo"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-thao-scaled.jpg"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Trang Hoang"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-trang-scaled.jpg"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Tuan Nguyen"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-tuan-scaled.jpg"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::team-member.team-member",
+    "match": {
+      "field": "name",
+      "value": "Long Nguyen"
+    },
+    "media": {
+      "photo": "china-sourcing-team-member-long-scaled.jpg"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Rebeca Hsu"
+    },
+    "media": {
+      "image": "china-sourcing-testimonial-automotive-machinery-300x204.png",
+      "authorAvatar": "customer-testimonials-23.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Jean-Baptiste Leclerc"
+    },
+    "media": {
+      "image": "china-sourcing-testimonial-automotive-machinery-1-300x204.png",
+      "authorAvatar": "customer-testimonials-24.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Elliout Donovan"
+    },
+    "media": {
+      "image": "testimonial-bags-and-cases-2-300x204.png",
+      "authorAvatar": "customer-testimonials-1.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Liam Cho"
+    },
+    "media": {
+      "image": "testimonial-bags-and-cases-1-300x204.png",
+      "authorAvatar": "customer-testimonials-2.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Rachel Tan"
+    },
+    "media": {
+      "image": "china-sourcing-testimonial-corporate-promotional-products-1-300x204.png",
+      "authorAvatar": "customer-testimonials-7.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Craig Bolton"
+    },
+    "media": {
+      "image": "china-sourcing-testimonial-corporate-promotional-products-300x204.png",
+      "authorAvatar": "customer-testimonials-8.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Hanz Amada"
+    },
+    "media": {
+      "image": "testimonial-furniture-1-300x204.png",
+      "authorAvatar": "Untitled-design-2.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Ken Fitzgerald"
+    },
+    "media": {
+      "image": "testimonial-furniture-2-1-300x204.png",
+      "authorAvatar": "customer-testimonials.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Samuel Roberts"
+    },
+    "media": {
+      "image": "china-sourcing-testimonial-gym-fitness-1-300x204.png",
+      "authorAvatar": "customer-testimonials-13.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Miguel Torres"
+    },
+    "media": {
+      "image": "china-sourcing-testimonial-gym-fitness-300x204.png",
+      "authorAvatar": "customer-testimonials-14.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Emma"
+    },
+    "media": {
+      "image": "china-sourcing-testimonial-hospitality-items-300x204.png",
+      "authorAvatar": "customer-testimonials-22.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Julien Moreau"
+    },
+    "media": {
+      "image": "china-sourcing-testimonial-hospitality-items-1-300x204.png",
+      "authorAvatar": "customer-testimonials-20.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Laura Mitchell"
+    },
+    "media": {
+      "image": "china-sourcing-testimonial-household-appliances-300x204.png",
+      "authorAvatar": "customer-testimonials-17.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Carlos Rivera"
+    },
+    "media": {
+      "image": "china-sourcing-testimonial-household-appliances-1-300x204.png",
+      "authorAvatar": "customer-testimonials-18.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Lien Zhou"
+    },
+    "media": {
+      "image": "china-sourcing-testimonial-packaging-1-300x204.png",
+      "authorAvatar": "customer-testimonials-9.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "David Greer"
+    },
+    "media": {
+      "image": "china-sourcing-testimonial-packaging-300x204.png",
+      "authorAvatar": "customer-testimonials-10.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Anand Meta"
+    },
+    "media": {
+      "image": "china-sourcing-testimonial-point-of-sale-300x204.png",
+      "authorAvatar": "customer-testimonials-21.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::testimonial.testimonial",
+    "match": {
+      "field": "authorName",
+      "value": "Linh Tran"
+    },
+    "media": {
+      "image": "china-sourcing-testimonial-point-of-sale-1-300x204.png",
+      "authorAvatar": "customer-testimonials-19.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::homepage.homepage",
+    "match": null,
+    "media": {
+      "hero.posterImage": "Screenshot-2025-05-15-at-11.11.34.png",
+      "sourcingServices.tabs.0.cards[].image (E-commerce, 8 in seed order)": [
+        "china-sourcing-product-sourcing.png",
+        "china-sourcing-quality-control.png",
+        "freight-and-logistics.png",
+        "warehousing-and-fulfillment.png",
+        "china-sourcing-product-research.png",
+        "graphic-design.png",
+        "photo-videography.png",
+        "china-sourcing-content-creation.png"
+      ],
+      "sourcingServices.tabs.1.cards[].image (Business, 7 in seed order)": [
+        "factory-supplier-audit.png",
+        "ip-protection.png",
+        "sourcing-procurement.png",
+        "Image-20.png",
+        "Image-21.png",
+        "Image-22.png",
+        "china-sourcing-custom-manufacturing-1.png"
+      ],
+      "whyChooseUs.features[].icon (6, shared.usp-item, in seed order)": [
+        "china-sourcing-team-300x300.png",
+        "china-sourcing-team-3-300x300.png",
+        "china-sourcing-team-4-300x300.png",
+        "china-sourcing-team-2-300x300.png",
+        "china-sourcing-trusted-factories-1-300x300.png",
+        "china-sourcing-team-1-300x300.png"
+      ]
+    },
+    "notes": "posterImage is a raw screenshot captured mid-clone (frame of the Vimeo player), not a downloaded original asset — cosmetically fine as a poster but flagging since it is not a \"real\" site asset. videoUrl already seeded, do not touch backgroundVideo (dead field)."
+  },
+  {
+    "contentType": "api::about-us-page.about-us-page",
+    "match": null,
+    "media": {
+      "hero.image (VERIFY schema has this field first)": "china-sourcing-about-us.png",
+      "timeline.shipImage": "Ship.png",
+      "founderQuote.photo": "Images.png",
+      "logoMarquee.logos[] — REPEATABLE COMPONENT HAS 0 ITEMS, must CREATE 7 new items {name:\"\", logo}, not update": [
+        "image-85.png",
+        "image-88.png",
+        "image-91.png",
+        "image-93.png",
+        "image-89.png",
+        "image-86.png",
+        "image-87.png"
+      ],
+      "visionMissionValues.visionIcon": "Vision.png",
+      "visionMissionValues.missionIcon": "Mission.png",
+      "visionMissionValues.valuesIcon": "Values.png",
+      "benefits.sideImage": "china-sourcing-container.png",
+      "benefits.items[].icon (6, same icon repeated for all — verified in src/data/about.ts reasons.icon, single shared value)": [
+        "star-05.png",
+        "star-05.png",
+        "star-05.png",
+        "star-05.png",
+        "star-05.png",
+        "star-05.png"
+      ],
+      "locations.items[].icon (4, exact seed order: China, Hong Kong, Vietnam, Australia)": [
+        "CN.png",
+        "Hong-Kong-flag-1.png",
+        "VN.png",
+        "AU.png"
+      ],
+      "brandCulture.tabs[].image (3, exact seed order: Culture, Brand Personality, Community & Impact)": [
+        "china-sourcing-culture.png",
+        "china-sourcing-community.png",
+        "china-sourcing-community-1024x797.jpg"
+      ]
+    },
+    "notes": "founderQuote.photo='Images.png' is a generic/non-descriptive filename in the clone's own data (src/data/about.ts founderQuote.avatar) — LOW CONFIDENCE this is really Sam Sheehan's photo rather than a mis-captured placeholder. Sam's real, high-confidence photo is china-sourcing-team-member-sam-scaled.jpg (already used for team-member.photo). Recommend using the real team photo here instead of Images.png, but including the clone's literal value per your instruction to match the clone exactly — your call on which to use."
+  },
+  {
+    "contentType": "api::products-page.products-page",
+    "match": null,
+    "media": {
+      "hero.image": "china-sourcing-warehouse.png",
+      "certifications.logos[] (UNCONFIRMED schema field — verify products.certifications component has a repeatable logos field before running)": [
+        "image-85.png",
+        "image-88.png",
+        "image-91.png",
+        "image-93.png",
+        "image-89.png",
+        "image-86.png",
+        "image-87.png"
+      ]
+    },
+    "notes": "productList card images are NOT duplicated here — they are api::product.product.cardImage per slug (see product entries above); products-page itself does not store them."
+  },
+  {
+    "contentType": "api::services-page.services-page",
+    "match": null,
+    "media": {
+      "hero.image": "china-sourcing-service.png",
+      "usp.image": "china-sourcing-container.png"
+    },
+    "notes": "serviceList card images are api::service.service.cardImage per slug (see service entries above), not stored on this single type."
+  },
+  {
+    "contentType": "api::process-page.process-page",
+    "match": null,
+    "media": {
+      "hero.image": "china-sourcing-process.png",
+      "timeline.shipImage": "Ship.png",
+      "usp.image": "china-sourcing-process-1.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::case-studies-page.case-studies-page",
+    "match": null,
+    "media": {
+      "hero.image": "china-sourcing-case-studies.png",
+      "usp.image": "china-sourcing-container.png"
+    },
+    "notes": "testimonials relation already connects Hanz Amada/Ken Fitzgerald/David Greer — their images are set via the testimonial entries above (Untitled-design-2.png, customer-testimonials.png, customer-testimonials-10.png respectively), nothing extra to do here."
+  },
+  {
+    "contentType": "api::resources-page.resources-page",
+    "match": null,
+    "media": {
+      "hero.image": "Frame-4947-1-1.png",
+      "downloadCta.image": "china-sourcing-document.png"
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::contact-page.contact-page",
+    "match": null,
+    "media": {
+      "hero.image": "china-sourcing-contact-us.png",
+      "getInTouch.infoItems[].icon (3, exact seed order: Email, Phone, Headquarters)": [
+        "mail.svg",
+        "phone.svg",
+        "pin.svg"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "contentType": "api::global.global",
+    "match": null,
+    "media": {
+      "footer.socialMedia[].icon (3, exact seed order: Facebook, Linkedin, Instagram)": [
+        "facebook-logo.png",
+        "linkedin-logo.png",
+        "instagram-logo-1.png"
+      ]
+    },
+    "notes": "navbar.logo / footer.logo intentionally left unmapped — the live site renders a text wordmark there, no logo image file exists anywhere in the clone (grepped Header.tsx/Footer.tsx, nothing found). defaultSeo.shareImage intentionally left unmapped — no sitewide OG image was identified in the clone; consider reusing homepage hero.posterImage or a dedicated logo asset if you want one set."
+  }
+]

@@ -522,6 +522,47 @@ export interface ApiAboutUsPageAboutUsPage extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiBlogPostBlogPost extends Struct.CollectionTypeSchema {
+  collectionName: 'blog_posts';
+  info: {
+    description: '';
+    displayName: 'Blog Post';
+    pluralName: 'blog-posts';
+    singularName: 'blog-post';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    content: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    excerpt: Schema.Attribute.Text;
+    featureImage: Schema.Attribute.Media<'images'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::blog-post.blog-post'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    publishedDate: Schema.Attribute.Date;
+    seo: Schema.Attribute.Component<'shared.seo', false>;
+    slug: Schema.Attribute.UID<'title'>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiCaseStudiesPageCaseStudiesPage
   extends Struct.SingleTypeSchema {
   collectionName: 'case_studies_pages';
@@ -1888,6 +1929,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
       'api::about-us-page.about-us-page': ApiAboutUsPageAboutUsPage;
+      'api::blog-post.blog-post': ApiBlogPostBlogPost;
       'api::case-studies-page.case-studies-page': ApiCaseStudiesPageCaseStudiesPage;
       'api::case-study-setting.case-study-setting': ApiCaseStudySettingCaseStudySetting;
       'api::case-study.case-study': ApiCaseStudyCaseStudy;
