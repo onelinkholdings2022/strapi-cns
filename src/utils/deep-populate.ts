@@ -13,31 +13,66 @@ import type { Core } from '@strapi/strapi';
 interface SchemaAttribute {
   type: string;
   component?: string;
+  target?: string;
 }
 
 interface SchemaLike {
   attributes?: Record<string, SchemaAttribute>;
 }
 
-export function buildDeepPopulate(strapi: Core.Strapi, uid: string, depth = 0): unknown {
+// Field ẩn Strapi tự gắn lên MỌI content-type (i18n, admin audit) — không phải
+// nội dung thật, và `localizations` tự trỏ về chính content-type đó nên đệ quy
+// vào là vòng lặp ngay lập tức.
+const SKIP_RELATION_KEYS = new Set(['createdBy', 'updatedBy', 'localizations']);
+
+export function buildDeepPopulate(
+  strapi: Core.Strapi,
+  uid: string,
+  depth = 0,
+  visiting: ReadonlySet<string> = new Set()
+): unknown {
   if (depth > 6) return true; // chặn đệ quy vô hạn nếu có component tự tham chiếu
+  if (visiting.has(uid)) return true; // đã đi qua uid này trong nhánh hiện tại — dừng, tránh vòng lặp
   const schema = (strapi.getModel as (uid: string) => SchemaLike | undefined)(uid);
   if (!schema?.attributes) return true;
+
+  const nextVisiting = new Set(visiting);
+  nextVisiting.add(uid);
+
+  // `nested` suy biến về `true` khi đệ quy chạm trần độ sâu hoặc gặp lại 1 uid
+  // đã đi qua (`visiting`), hoặc về `{}` khi component/relation đó chỉ toàn field
+  // vô hướng. Cả 2 trường hợp phải gộp thành `populate[key] = true` — KHÔNG được
+  // bọc thêm 1 lớp `{ populate: true }`, vì Strapi validate populate lồng phải là
+  // object/mảng/`"*"`, không nhận `true` làm giá trị populate lồng (400 "Invalid
+  // key true"). `{ populate: {} }` thì qs lại tự bỏ mất key rỗng lồng nhau, nên
+  // vẫn phải quy về `true` — không phải bỏ qua.
+  function toPopulateValue(nested: unknown): unknown {
+    if (nested === true) return true;
+    const isEmpty = typeof nested === 'object' && nested !== null && Object.keys(nested).length === 0;
+    return isEmpty ? true : { populate: nested };
+  }
 
   const populate: Record<string, unknown> = {};
   for (const [key, attr] of Object.entries(schema.attributes)) {
     if (attr.type === 'component' && attr.component) {
-      const nested = buildDeepPopulate(strapi, attr.component, depth + 1);
-      // Component chỉ chứa field vô hướng (vd shared.tag/shared.button) đệ quy ra
-      // populate rỗng {} — Koa `ctx.query = {...}` dùng qs.stringify để build lại
-      // querystring, và qs BỎ LUÔN key có giá trị là object rỗng lồng nhau. Nếu để
-      // `{ populate: {} }` thì `heroButton`/`sourceTag`/`faqItems` biến mất khỏi
-      // query thật gửi đi, API trả 200 nhưng field đó lặng lẽ không populate nữa
-      // (đã bắt được lỗi này khi test /api/products — heroButton/faqItems mất tích).
-      const isEmpty = typeof nested === 'object' && nested !== null && Object.keys(nested).length === 0;
-      populate[key] = isEmpty ? true : { populate: nested };
+      populate[key] = toPopulateValue(buildDeepPopulate(strapi, attr.component, depth + 1, nextVisiting));
     } else if (attr.type === 'dynamiczone' || attr.type === 'media') {
       populate[key] = true;
+    } else if (
+      attr.type === 'relation' &&
+      attr.target?.startsWith('api::') &&
+      !SKIP_RELATION_KEYS.has(key)
+    ) {
+      // Trước đây bỏ sót nhánh này: 1 relation nằm TRONG 1 component (vd
+      // `sections.testimonial-carousel.testimonials`, hay relation ngay trên
+      // content-type như `partner.category`) không bao giờ được populate —
+      // Strapi trả 200 nhưng field đó vắng mặt hoàn toàn khỏi response, không
+      // báo lỗi gì (đúng kiểu lỗi mà toàn bộ file này được viết ra để tránh,
+      // nhưng lại chừa relation ra ngoài). Đệ quy y hệt nhánh component; chỉ
+      // theo relation trỏ tới content-type của mình (`api::…`, không phải
+      // `admin::`/`plugin::`) — quan hệ qua lại (vd resource.categories <->
+      // category.resources) tự dừng nhờ `visiting`, không đợi tới depth 6.
+      populate[key] = toPopulateValue(buildDeepPopulate(strapi, attr.target, depth + 1, nextVisiting));
     }
   }
   return populate;
