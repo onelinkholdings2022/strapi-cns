@@ -25,6 +25,12 @@
       "relation": "manyToMany",
       "target": "api::resource.resource",
       "mappedBy": "categories"
+    },
+    "blogPosts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::blog-post.blog-post",
+      "mappedBy": "categories"
     }
   }
 }

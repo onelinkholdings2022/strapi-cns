@@ -41,6 +41,12 @@
     "publishedDate": {
       "type": "date"
     },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "blogPosts"
+    },
     "seo": {
       "type": "component",
       "repeatable": false,
