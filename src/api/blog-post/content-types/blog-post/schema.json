@@ -47,6 +47,10 @@
       "target": "api::category.category",
       "inversedBy": "blogPosts"
     },
+    "gated": {
+      "type": "boolean",
+      "default": true
+    },
     "seo": {
       "type": "component",
       "repeatable": false,

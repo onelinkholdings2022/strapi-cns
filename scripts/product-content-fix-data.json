@@ -1,0 +1,257 @@
+{
+  "automotive-machinery": {
+    "heroDescription": "From aftermarket car parts to OEM machinery components, China Sourcing Co helps you find reliable, certified manufacturers in China with technical support, QA and logistics built-in.",
+    "heroButton": { "label": "Talk to our Expert", "url": "/contact-us/", "variant": "primary", "openInNewTab": false },
+    "sourceTag": "What We Source in Automotive & Machinery",
+    "sourceHeading": "Versatile Automotive & Machinery Sourcing for Every Industry",
+    "sourceDescription": "Our team is exceptionally positioned to meticulously source and procure an extensive array of automotive parts and accessories, encompassing:",
+    "testimonialsHeading": "Success Stories in Automotive & Machinery Sourcing",
+    "uspHeading": "Why China Sourcing Co for Automotive & Machinery",
+    "faqItems": [
+      ["Can you source components based on technical drawings?", "Yes we accept CAD, DXF, STEP files and assist in clarifying specs with the factory."],
+      ["Are your suppliers certified?", "Most factories we work with hold ISO9001, IATF16949, or equivalent certifications."],
+      ["What materials can you support?", "Steel, aluminum, ABS, nylon, rubber, brass and custom alloys on request."],
+      ["Can I inspect parts before shipment?", "Yes we coordinate internal or third-party inspections with dimensional and functional testing."]
+    ],
+    "ctaBanner": {
+      "tag": "Contact Us Right Today",
+      "heading": "Let's Build Smarter Automotive & Machinery Supply Chains",
+      "subheading": "Whether you need precision components or complete kits, we make sourcing from China simple and dependable.",
+      "button": { "label": "Start Your Project", "url": null, "variant": "primary", "openInNewTab": false }
+    }
+  },
+  "bedding-home": {
+    "heroDescription": "We help you source high-quality bedding, linens and soft furnishings from trusted Chinese factories tailored to your brand, audience and market standards.",
+    "heroButton": { "label": "Talk to our Expert", "url": "/contact-us/", "variant": "primary", "openInNewTab": false },
+    "sourceTag": "What We Source in Bedding & Home",
+    "sourceHeading": "Versatile Bedding & Home Sourcing for Every Industry",
+    "sourceDescription": "From comprehensive luxury hotel projects to residential developments, our team is eager to explore your requirements and showcase our capabilities. Our supply expertise spans a wide array of products, including:",
+    "testimonialsHeading": "Success Stories in Bedding & Home Sourcing",
+    "uspHeading": "Why China Sourcing Co for Bedding & Home",
+    "faqItems": [
+      ["Can I customize size, pattern and packaging?", "Yes we offer full customization on dimensions, prints, trims, tags and packing style."],
+      ["Do you support sustainable materials like bamboo or organic cotton?", "Absolutely. We source certified eco-friendly materials including GOTS and OEKO-TEX options."],
+      ["How do you test quality for home textiles?", "We inspect stitching, softness, GSM, shrinkage rate and color durability during production."],
+      ["Can you support hotel and residential projects?", "Yes we source in bulk or by room type and label shipments clearly for fast rollout."]
+    ],
+    "ctaBanner": {
+      "tag": "Contact Us Right Today",
+      "heading": "Let's Build Smarter Bedding & Home Supply Chains",
+      "subheading": "From e-commerce sets to 5-star finishes, we help you source bedding that delivers on comfort and consistency.",
+      "button": { "label": "Start Your Project", "url": null, "variant": "primary", "openInNewTab": false }
+    }
+  },
+  "building-materials": {
+    "heroDescription": "From tiles and sanitaryware to insulation and doors, we help builders, contractors and developers source reliable building materials from certified manufacturers in China.",
+    "heroButton": { "label": "Talk to our Expert", "url": "/contact-us/", "variant": "primary", "openInNewTab": false },
+    "sourceTag": "What We Source in Building Materials",
+    "sourceHeading": "Versatile Building Materials Sourcing for Every Industry",
+    "sourceDescription": "Our comprehensive range of building material suppliers is tailored to cover all phases of construction. When discussing your project requirements with our team, please ensure to specify your certification and standards needs. This way, we can exclusively provide you with options from factories that align with your requirements. Here's an overview of the building materials we supply globally:",
+    "testimonialsHeading": "Success Stories in Building Materials Sourcing",
+    "uspHeading": "Why China Sourcing Co for Building Materials",
+    "faqItems": [
+      ["Can I combine different product types (e.g. tiles + toilets) in one shipment?", "Yes. We help consolidate your orders from different suppliers into a single shipment to save on freight."],
+      ["Do you offer samples before bulk order?", "Absolutely. We can ship 2–3 key SKUs for quality and material approval."],
+      ["What type of freight can I transport with your ship?", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis sagittis sapien. Vestibulum euismod leo at ligula posuere, ac vulputate diam dignissim. Nulla facilisi. Nam eleifend lacus nec nunc volutpat posuere."],
+      ["Are your factories compliant with international certifications?", "Yes most of our partner factories have CE, ISO, or regional-specific compliance (e.g. WaterMark, SASO)."],
+      ["Are your ships already in operation?", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis sagittis sapien. Vestibulum euismod leo at ligula posuere, ac vulputate diam dignissim. Nulla facilisi. Nam eleifend lacus nec nunc volutpat posuere."],
+      ["Can I track production and QA progress?", "Yes. We provide periodic photo/video updates and QA reports during production."]
+    ],
+    "ctaBanner": {
+      "tag": "Contact Us Right Today",
+      "heading": "Let's Build Smarter Building Materials Supply Chains",
+      "subheading": "Work with a partner who understands both construction timelines and supplier management.",
+      "button": { "label": "Start Your Project", "url": null, "variant": "primary", "openInNewTab": false }
+    }
+  },
+  "chemicals-cleaning": {
+    "heroDescription": "From cleaning liquids to industrial-grade compounds, we connect you with verified chemical manufacturers that meet international safety and packaging standards.",
+    "heroButton": { "label": "Talk to our Expert", "url": "/contact-us/", "variant": "primary", "openInNewTab": false },
+    "sourceTag": "What We Source in Chemicals & Cleaning",
+    "sourceHeading": "Versatile Chemicals & Cleaning Sourcing for Every Industry",
+    "sourceDescription": "Our team offers a wide range of cleaning chemicals across a broad range of industries, from mining camps through to industrial kitchens our team work with our customers to source and procure goods suited to our customers requirements, please be sure to let our team know the destination of goods so we can ensure certificational requirements meet your products destination. Some of the products we supply are as follows:",
+    "testimonialsHeading": "Success Stories in Chemicals & Cleaning Sourcing",
+    "uspHeading": "Why China Sourcing Co for Chemicals & Cleaning",
+    "faqItems": [
+      ["Can you source both formula and packaging?", "Yes we manage both chemical formulation and packaging components for full-solution delivery."],
+      ["What safety certifications do your factories have?", "Most are ISO 9001, GMP-compliant and experienced in SDS/MSDS documentation."],
+      ["Do you support custom scents or colors?", "Absolutely. We can match or create new fragrance profiles and visual effects."],
+      ["Can I export these products to the EU or Australia?", "Yes we help ensure compliance with REACH, AICIS, GHS and other regional frameworks."]
+    ],
+    "ctaBanner": {
+      "tag": "Contact Us Right Today",
+      "heading": "Let's Build Smarter Chemicals & Cleaning Supply Chains",
+      "subheading": "Whether you need private label cleaners or custom industrial compounds, we'll help you get it done safely, consistently and on time.",
+      "button": { "label": "Start Your Project", "url": null, "variant": "primary", "openInNewTab": false }
+    }
+  },
+  "corporate-promotional-products": {
+    "heroDescription": "From branded office kits to event giveaways, we source high-quality corporate gifts and promotional items that align with your message, budget and timeline.",
+    "heroButton": { "label": "Talk to our Expert", "url": "/contact-us/", "variant": "primary", "openInNewTab": false },
+    "sourceTag": "What We Source in Corporate & Promotional Products",
+    "sourceHeading": "Versatile Corporate & Promotional Products Sourcing for Every Industry",
+    "sourceDescription": "Promotional products offer a variety of benefits such and go a long way for companies and their increased brand recognition, cost effective marketing as well as customer loyalty. The following are some promotional products our team have the capbiltiy in supplying:",
+    "testimonialsHeading": "Success Stories in Corporate & Promotional Products Sourcing",
+    "uspHeading": "Why China Sourcing Co for Corporate & Promotional Products",
+    "faqItems": [
+      ["Can I request a custom gift box with multiple items inside?", "Yes. We offer full kitting services including box sourcing, custom printing and individual item placement."],
+      ["What's your typical turnaround time?", "For standard items: 15 - 25 days. For fully custom sets: 30 - 40 days."],
+      ["Do you support eco-friendly or recycled materials?", "Yes. Many of our suppliers offer RPET, bamboo, recycled paper and biodegradable alternatives."],
+      ["Can you print in full color or Pantone match my brand?", "Absolutely. We support Pantone color matching and multi-method printing (UV, silkscreen, transfer, etc.)."]
+    ],
+    "ctaBanner": {
+      "tag": "Contact Us Right Today",
+      "heading": "Let's Build Smarter Corporate & Promotional Products Supply Chains",
+      "subheading": "Let us take the stress out of finding, customizing and delivering corporate gifts that make a real impact.",
+      "button": { "label": "Start Your Project", "url": null, "variant": "primary", "openInNewTab": false }
+    }
+  },
+  "food-drinks": {
+    "heroDescription": "Whether you're launching a private label or scaling distribution, we help you source packaged food and drink products from certified manufacturers across China safely, efficiently and transparently.",
+    "heroButton": { "label": "Talk to our Expert", "url": "/contact-us/", "variant": "primary", "openInNewTab": false },
+    "sourceTag": "What We Source in Food & Drink Products",
+    "sourceHeading": "Versatile Food & Drink Products Sourcing for Every Industry",
+    "sourceDescription": "We take pride in collaborating with quality producers, compliant with established standards and certifications for our extensive product offering:",
+    "testimonialsHeading": "Success Stories in Food & Drink Products Sourcing",
+    "uspHeading": "Why China Sourcing Co for Food & Drink Products",
+    "faqItems": [
+      ["Can you help me create a private label food brand?", "Yes we support formulation, packaging design and documentation from start to finish."],
+      ["What certifications do your factories have?", "Most are HACCP, ISO22000, BRCGS certified. We can also filter based on Halal/Kosher/Organic needs."],
+      ["How long is the lead time for food products?", "25 - 40 days depending on product complexity and packaging requirements."],
+      ["Can I ship food samples internationally for testing?", "Yes. We help with sample customs declaration and handling."]
+    ],
+    "ctaBanner": {
+      "tag": "Contact Us Right Today",
+      "heading": "Let's Build Smarter Food & Drink Products Supply Chains",
+      "subheading": "From the factory floor to the store shelf China Sourcing Co is your behind-the-scenes sourcing partner for food & drink products that sell.",
+      "button": { "label": "Start Your Project", "url": null, "variant": "primary", "openInNewTab": false }
+    }
+  },
+  "gym-fitness": {
+    "heroDescription": "From home workout essentials to commercial-grade equipment, we help you source reliable, durable and customizable fitness products directly from China's top factories.",
+    "heroButton": { "label": "Talk to our Expert", "url": "/contact-us/", "variant": "primary", "openInNewTab": false },
+    "sourceTag": "What We Source in Gym & Fitness",
+    "sourceHeading": "Versatile Gym & Fitness Sourcing for Every Industry",
+    "sourceDescription": "Our China Sourcing Co team have experience in supplying and outfitting gym and fitness centres of all sizes.",
+    "testimonialsHeading": "Success Stories in Gym & Fitness Sourcing",
+    "uspHeading": "Why China Sourcing Co for Gym & Fitness",
+    "faqItems": [
+      ["Can I mix multiple fitness items into one product line?", "Yes we specialize in bundled sourcing and can consolidate items into custom kits or cartons."],
+      ["Are your products tested for quality and durability?", "All suppliers undergo quality checks including drop test, salt spray test and surface hardness testing."],
+      ["Can I customize weights, colors, or branding?", "Absolutely. We offer full customization including logo embossing and Pantone color matching."],
+      ["Do you support air and sea freight for heavy goods?", "Yes. We arrange shipping based on your region and urgency, including palletized or bulk container options."]
+    ],
+    "ctaBanner": {
+      "tag": "Contact Us Right Today",
+      "heading": "Let's Build Smarter Gym & Fitness Supply Chains",
+      "subheading": "Whether you're launching a new fitness brand or restocking your gym, we'll help you source gear that performs.",
+      "button": { "label": "Start Your Project", "url": null, "variant": "primary", "openInNewTab": false }
+    }
+  },
+  "hardware-tools": {
+    "heroDescription": "Whether for industrial use or retail distribution, we help you source hand tools, fasteners and hardware accessories from reliable, export-ready factories in China.",
+    "heroButton": { "label": "Talk to our Expert", "url": "/contact-us/", "variant": "primary", "openInNewTab": false },
+    "sourceTag": "What We Source in Hardware & Tools",
+    "sourceHeading": "Versatile Hardware & Tools Sourcing for Every Industry",
+    "sourceDescription": "Our China Sourcing Co team stands ready to quote and supply high-quality hardware and tools, catering to diverse project needs:",
+    "testimonialsHeading": "Success Stories in Hardware & Tools Sourcing",
+    "uspHeading": "Why China Sourcing Co for Hardware & Tools?",
+    "faqItems": [
+      ["Can I order mixed tool kits with custom branding?", "Yes we create multi-piece tool kits with your brand, arranged by SKU or function."],
+      ["What kind of quality checks do you perform?", "We provide tolerance checks, finish inspections, packaging drop tests and more depending on the product."],
+      ["Do you support heavy or dangerous goods logistics?", "Yes. We comply with packing, labeling and shipping requirements for regulated hardware and sharp goods."],
+      ["Can you match specific standards like ANSI or DIN?", "Absolutely. We work with suppliers who follow international benchmarks for tool quality and precision."]
+    ],
+    "ctaBanner": {
+      "tag": "Contact Us Right Today",
+      "heading": "Let's Build Smarter Hardware & Tools Supply Chains",
+      "subheading": "Partner with us to streamline your hardware sourcing, improve quality control and scale efficiently.",
+      "button": { "label": "Start Your Project", "url": null, "variant": "primary", "openInNewTab": false }
+    }
+  },
+  "hospitality-items": {
+    "heroDescription": "From in-room essentials to front-desk presentation, we help hotels, resorts and serviced apartments source high-quality hospitality products customized to your brand and budget.",
+    "heroButton": { "label": "Talk to our Expert", "url": "/contact-us/", "variant": "primary", "openInNewTab": false },
+    "sourceTag": "What We Source in Hospitality Items",
+    "sourceHeading": "Versatile Hospitality Items Sourcing for Every Industry",
+    "sourceDescription": "We collaborate with hotels of all sizes, sharing a common objective of delivering top-quality products at the most competitive prices. Our extensive product offerings include:",
+    "testimonialsHeading": "Success Stories in Hospitality Items Sourcing",
+    "uspHeading": "Why China Sourcing Co for Hospitality Items",
+    "faqItems": [
+      ["Can I source pre-packed kits for different room types (e.g. suite vs standard)?", "Yes we help you create custom kits for different room categories, pre-packed and labeled for easy distribution."],
+      ["Can I match specific hotel brand standards?", "Absolutely. We review your guidelines and match materials, dimensions and presentation accordingly."],
+      ["Do you support eco-friendly amenity sourcing?", "Yes bamboo, recycled plastic, refillable packaging and plastic-free options are available."],
+      ["Can I get one shipment for multiple locations?", "Yes. We offer consolidation and can split shipments by property, warehouse, or region."]
+    ],
+    "ctaBanner": {
+      "tag": "Contact Us Right Today",
+      "heading": "Let's Build Smarter Hospitality Items Supply Chains",
+      "subheading": "From five-star finishes to functional logistics we make hospitality sourcing seamless.",
+      "button": { "label": "Start Your Project", "url": null, "variant": "primary", "openInNewTab": false }
+    }
+  },
+  "household-appliances": {
+    "heroDescription": "We help you source reliable, modern and safety-certified household appliances directly from top-tier Chinese manufacturers ready for retail or private label.",
+    "heroButton": { "label": "Talk to our Expert", "url": "/contact-us/", "variant": "primary", "openInNewTab": false },
+    "sourceTag": "What We Source in Household Appliances",
+    "sourceHeading": "Versatile Household Appliances Sourcing for Every Industry",
+    "sourceDescription": "From E-commerce brands to hotels across the globe, the following are just some home appliances which our capable team has the capability to supply:",
+    "testimonialsHeading": "Success Stories in Household Appliances Sourcing",
+    "uspHeading": "Why China Sourcing Co for Household Appliances",
+    "faqItems": [
+      ["Can you help match voltage and plug types per region?", "Yes we ensure product compatibility with US, EU, AU, or UK standards including plug type, voltage and certification."],
+      ["Do you support small batch or pilot production?", "Absolutely. We specialize in flexible MOQ and test launches for ecommerce brands."],
+      ["What certifications can you help us secure?", "We assist with CE, FCC, UL, SAA, CB and local testing protocols if needed."],
+      ["Can I get videos or lab reports of product tests?", "Yes we can provide video tests, QA photos and official lab documentation before shipment."]
+    ],
+    "ctaBanner": {
+      "tag": "Contact Us Right Today",
+      "heading": "Let's Build Smarter Household Appliances Supply Chains",
+      "subheading": "From kitchens to living rooms we'll help you source appliances your customers trust.",
+      "button": { "label": "Start Your Project", "url": null, "variant": "primary", "openInNewTab": false }
+    }
+  },
+  "point-of-sale": {
+    "heroDescription": "We help brands and retailers source effective, branded and cost-efficient point of sale displays built for in-store impact and global shipping.",
+    "heroButton": { "label": "Talk to our Expert", "url": "/contact-us/", "variant": "primary", "openInNewTab": false },
+    "sourceTag": "What We Source in Point of Sale",
+    "sourceHeading": "Versatile Point of Sale Sourcing for Every Industry",
+    "sourceDescription": "To enhance your customer experience and captivate attention, our team specializes in the custom manufacturing and supply of a diverse range of Point of Sale (POS) products:",
+    "testimonialsHeading": "Success Stories in Point of Sale Sourcing",
+    "uspHeading": "Why China Sourcing Co for Point of Sale",
+    "faqItems": [
+      ["Can I request a custom-shaped or multi-tier display?", "Yes we create unique structures based on product size, display goals and store environment."],
+      ["Do you support POS displays with packaging integration?", "Absolutely. We specialize in SRP (Shelf-Ready Packaging) and PDQs that double as packaging and display."],
+      ["What materials are available?", "Cardboard (single/double wall), corrugated, acrylic, metal and hybrid materials."],
+      ["Can I get samples before full production?", "Yes we offer physical prototypes or white samples for fit testing and approvals."]
+    ],
+    "ctaBanner": {
+      "tag": "Contact Us Right Today",
+      "heading": "Let's Build Smarter Point of Sale Supply Chains",
+      "subheading": "From design to delivery we help you source displays that convert.",
+      "button": { "label": "Start Your Project", "url": null, "variant": "primary", "openInNewTab": false }
+    }
+  },
+  "textiles-garments": {
+    "heroDescription": "From everyday basics to premium custom wear, we help brands, retailers, and designers source high-quality textiles and garments tailored to your design needs, audience, and price point.",
+    "heroButton": { "label": "Talk to our Expert", "url": "/contact-us/", "variant": "primary", "openInNewTab": false },
+    "sourceTag": "What We Source in Textiles & Garments",
+    "sourceHeading": "Versatile Textiles & Garments Sourcing for Every Industry",
+    "sourceDescription": "We work with fashion brands, retailers, and private labels to source well-made, stylish, and cost-efficient apparel and textiles tailored for both everyday use and seasonal collections.",
+    "testimonialsHeading": "Success Stories in Textiles & Garments Sourcing",
+    "uspHeading": "Why China Sourcing Co for Textiles & Garments",
+    "faqItems": [
+      ["What types of garments can you help us source?", "We support a wide range including everyday basics, uniforms, high-end fashion, and custom designed collections."],
+      ["Can I order low minimum quantities?", "Yes, we work with flexible factories that accept small batch production, ideal for new product launches or seasonal testing."],
+      ["Do you offer sustainable fabric options?", "Absolutely. We can source organic cotton, bamboo, recycled polyester, and other eco friendly textiles."],
+      ["How do you ensure product quality?", "Our team conducts factory audits, sample approvals, and multi stage quality control inspections from fabric selection to final stitching."],
+      ["How long does production typically take?", "Lead times vary by product, but most garment orders are completed within 20 to 30 days after sample approval."]
+    ],
+    "ctaBanner": {
+      "tag": "Contact Us Right Today",
+      "heading": "Let's Build Smarter Textiles & Garments Supply Chains",
+      "subheading": "From everyday wear to premium fabrics, we make apparel sourcing simple and reliable.",
+      "button": { "label": "Start Your Project", "url": null, "variant": "primary", "openInNewTab": false }
+    }
+  }
+}
