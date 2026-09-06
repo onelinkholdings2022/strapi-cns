@@ -41,6 +41,9 @@
     "publishedDate": {
       "type": "date"
     },
+    "readingTime": {
+      "type": "string"
+    },
     "categories": {
       "type": "relation",
       "relation": "manyToMany",

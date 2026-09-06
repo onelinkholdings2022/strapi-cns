@@ -45,6 +45,9 @@
     "readingTime": {
       "type": "string"
     },
+    "publishedDate": {
+      "type": "date"
+    },
     "content": {
       "type": "customField",
       "customField": "plugin::ckeditor5.CKEditor",

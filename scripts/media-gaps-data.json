@@ -1,0 +1,118 @@
+{
+  "_note": "Ánh xạ ảnh còn thiếu -> tên file trong chinasourcing-clone/public/images. Mỗi mục lấy từ HTML thật của trang gốc tương ứng (xem fix-media-gaps.js).",
+
+  "homepageWhyChooseUs": {
+    "Work With Local Experts": "china-sourcing-team-300x300.png",
+    "Remove Language Barriers": "china-sourcing-team-3-300x300.png",
+    "Simplify Communication": "china-sourcing-team-4-300x300.png",
+    "Maximize Profits": "china-sourcing-team-2-300x300.png",
+    "Use Trusted Factories": "china-sourcing-trusted-factories-1-300x300.png",
+    "Ensure Product Quality": "china-sourcing-team-1-300x300.png"
+  },
+
+  "servicesPageProcess": {
+    "Product Briefing & Consultation": "product-briefing-consultation.png",
+    "Supplier Sourcing & Vetting": "supplier-sourcing-vetting.png",
+    "Sample & Quotation": "sample-and-quotation.png",
+    "Production Oversight": "production-oversight.png",
+    "Quality Control": "quality-control-1.png",
+    "Freight & Delivery": "freight-and-delivery.png"
+  },
+
+  "servicesPageCategoryTabs": {
+    "furniture": "china-sourcing-furniture.png",
+    "packaging": "china-sourcing-packaging.png",
+    "gym-fitness": "china-sourcing-gym-fitness.png",
+    "building-materials": "china-sourcing-building-material.png",
+    "textiles-garments": "china-sourcing-textiles-garments.png"
+  },
+
+  "serviceCardImages": {
+    "sourcing-service": "sourcing-service.png",
+    "custom-manufacturing": "custom-manufacturing.png",
+    "quality-control": "china-sourcing-quality-control.png",
+    "freight-logistics": "freight-and-logistics-1.png"
+  },
+
+  "serviceProcessSteps": {
+    "sourcing-service": {
+      "Enquire": "sourcing-service-enquire-1-1024x868.png",
+      "Quoting Stage": "sourcing-service-quoting-stage-1-1024x868.png",
+      "Sample & Design": "sourcing-service-sample-and-design-1-1024x868.png",
+      "Confirmation": "sourcing-service-confirmation-1-1024x868.png",
+      "Production": "sourcing-service-production-1-1024x868.png",
+      "Quality Assurances": "sourcing-service-quality-assurances-1-1024x868.png",
+      "Final inspection and balance": "sourcing-service-final-inspection-and-balance-2-1024x868.png",
+      "Freight and Logistics": "sourcing-service-freight-and-logistics-1-1024x868.png"
+    },
+    "custom-manufacturing": {
+      "Conceptualization and Design": "conceptualization-and-design-1-1024x868.png",
+      "Product Design and Engineering": "product-design-and-engineering-1-1024x868.png",
+      "Material Selection and Sourcing": "material-selection-and-sourcing-1-1024x868.png",
+      "Manufacturing Planning": "manufacturing-planning-1-1024x868.png",
+      "Manufacturing and Production": "manufacturing-and-production-1-1024x868.png",
+      "Assembly and Integration": "assembly-and-integration-1-1024x868.png",
+      "Packaging Design and Branding": "packaging-design-and-branding-1-1024x868.png",
+      "Testing and Certification": "testing-and-certification-1-1024x868.png"
+    },
+    "quality-control": {
+      "Factory audit": "factory-audit-1-1024x868.png",
+      "Pre production inspection (PPI)": "pre-production-inspection-1-1024x868.png",
+      "During production inspection (DUPRO)": "during-production-inspection-1-1024x868.png",
+      "Pre shipment inspection (PSI)": "pre-shipment-inspection-1-1024x868.png",
+      "Container loading check (CLC)": "container-loading-check.png"
+    },
+    "freight-logistics": {
+      "Air freight": "air-freight-1-1024x868.png",
+      "Sea freight": "sea-freight-1-1024x868.png",
+      "Road freight": "road-freight-1-1024x868.png",
+      "Rail freight": "rail-freight-1-1024x868.png"
+    }
+  },
+
+  "contactSocialIcons": {
+    "LinkedIn": "linkedin-logo.png",
+    "Facebook": "facebook-logo.png",
+    "Instagram": "instagram-logo-1.png"
+  },
+
+  "contactWhatHappensNext": {
+    "Notification": "email-notification-1024x798.png",
+    "Contact": "telephone-1024x798.png",
+    "Discussion": "people-discussing-1024x798.png",
+    "Quote": "china-sourcing-quote-1024x798.png"
+  },
+
+  "testimonialImages": {
+    "Amanda Liu": "china-sourcing-testimonial-textiles-garments.png",
+    "Anand Meta": "china-sourcing-testimonial-point-of-sale.png",
+    "Carlos Rivera": "china-sourcing-testimonial-household-appliances-1.png",
+    "Craig Bolton": "china-sourcing-testimonial-corporate-promotional-products.png",
+    "David Greer": "china-sourcing-testimonial-packaging.png",
+    "Ella Thompson": "china-sourcing-testimonial-bedding-home.png",
+    "Elliout Donovan": "testimonial-bags-and-cases-2.png",
+    "Emma": "china-sourcing-testimonial-hospitality-items.png",
+    "Hana Ferretti": "china-sourcing-testimonial-chemicals-cleaning-1.png",
+    "Hanz Amada": "testimonial-furniture-1.png",
+    "Isabella Chen": "china-sourcing-testimonial-hardware-tools-1.png",
+    "Jacob Linwood": "china-sourcing-testimonial-food-drink-products-1.png",
+    "Jean-Baptiste Leclerc": "china-sourcing-testimonial-automotive-machinery-1.png",
+    "Julien Moreau": "china-sourcing-testimonial-hospitality-items-1.png",
+    "Julien Morel": "china-sourcing-testimonial-textiles-garments-1.png",
+    "Kady Kenedy": "china-sourcing-testimonial-hardware-tools.png",
+    "Ken Fitzgerald": "testimonial-furniture-2-1.png",
+    "Laura Mitchell": "china-sourcing-testimonial-household-appliances.png",
+    "Liam Cho": "testimonial-bags-and-cases-1.png",
+    "Lien Zhou": "china-sourcing-testimonial-packaging-1.png",
+    "Linh Tran": "china-sourcing-testimonial-point-of-sale-1.png",
+    "Lorenzo Bianchi": "china-sourcing-testimonial-building-materials-1-1.png",
+    "Miguel Torres": "china-sourcing-testimonial-gym-fitness.png",
+    "Naomi Tanaka": "china-sourcing-testimonial-food-drink-products.png",
+    "Peter Wang": "china-sourcing-testimonial-chemicals-cleaning.png",
+    "Rachel Tan": "china-sourcing-testimonial-corporate-promotional-products-1.png",
+    "Rebeca Hsu": "china-sourcing-testimonial-automotive-machinery.png",
+    "Rechael Ortiz": "china-sourcing-testimonial-bedding-home-1.png",
+    "Samuel Roberts": "china-sourcing-testimonial-gym-fitness-1.png",
+    "Tez Zayed": "china-sourcing-testimonial-building-materials-1.png"
+  }
+}

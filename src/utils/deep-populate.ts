@@ -77,3 +77,27 @@ export function buildDeepPopulate(
   }
   return populate;
 }
+
+/**
+ * Gắn deep populate vào `ctx.query` — NHƯNG chỉ khi client chưa tự khai
+ * `populate`.
+ *
+ * Bản trước ghi đè vô điều kiện, nên không có cách nào xin một response gọn:
+ * `/api/blog-posts` luôn trả kèm `content` đầy đủ của 131 bài, và vì
+ * `categories` được populate ngược lại thành `category.blogPosts` nên mỗi bài
+ * còn kéo theo content của mọi bài cùng category — 18 MB cho một trang danh
+ * sách chỉ cần tiêu đề và ảnh. Next cũng không cache nổi (trần 2 MB/entry), nên
+ * mỗi lần F5 là tải lại toàn bộ.
+ *
+ * Deep populate vẫn là mặc định (đó là lý do nó tồn tại: không bỏ sót media lồng
+ * sâu); client nào biết mình cần gì thì tự khai `populate` và `fields`.
+ */
+export function applyDeepPopulate(
+  ctx: { query?: Record<string, unknown> },
+  strapi: Core.Strapi,
+  uid: string
+): void {
+  const query = ctx.query ?? {};
+  if (query.populate !== undefined) return;
+  ctx.query = { ...query, populate: buildDeepPopulate(strapi, uid) };
+}

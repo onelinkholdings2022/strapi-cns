@@ -17,6 +17,14 @@
     "description": {
       "type": "text"
     },
+    "shipImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
     "steps": {
       "type": "component",
       "repeatable": true,

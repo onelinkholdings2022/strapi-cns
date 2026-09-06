@@ -26,6 +26,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::resource.resource"
+    },
+    "featuredBlogPosts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-post.blog-post"
     }
   }
 }

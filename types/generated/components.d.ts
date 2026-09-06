@@ -512,6 +512,7 @@ export interface ProcessTimeline extends Struct.ComponentSchema {
   attributes: {
     description: Schema.Attribute.Text;
     heading: Schema.Attribute.String;
+    shipImage: Schema.Attribute.Media<'images'>;
     steps: Schema.Attribute.Component<'process.timeline-step', true>;
     tag: Schema.Attribute.Component<'shared.tag', false>;
   };
@@ -683,6 +684,10 @@ export interface SectionsFeaturedResources extends Struct.ComponentSchema {
     icon: 'book';
   };
   attributes: {
+    featuredBlogPosts: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::blog-post.blog-post'
+    >;
     featuredResources: Schema.Attribute.Relation<
       'oneToMany',
       'api::resource.resource'

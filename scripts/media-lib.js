@@ -66,10 +66,13 @@ async function uploadImage(strapi, filename, { alt } = {}) {
     buffer = upgraded;
   }
 
-  const webpName = path.basename(filename, path.extname(filename)) + '.webp';
-  const webpBuffer = await sharp(buffer).webp({ quality: 90 }).toBuffer();
-  const tmpPath = path.join(TMP_DIR, webpName);
-  fs.writeFileSync(tmpPath, webpBuffer);
+  // SVG là vector — convert sang webp sẽ rasterize (icon mất nét khi phóng to).
+  // Giữ nguyên file, chỉ đổi mimetype.
+  const isSvg = path.extname(filename).toLowerCase() === '.svg';
+  const outName = isSvg ? filename : path.basename(filename, path.extname(filename)) + '.webp';
+  const outBuffer = isSvg ? buffer : await sharp(buffer).webp({ quality: 90 }).toBuffer();
+  const tmpPath = path.join(TMP_DIR, outName);
+  fs.writeFileSync(tmpPath, outBuffer);
 
   const stats = fs.statSync(tmpPath);
   const uploadService = strapi.plugin('upload').service('upload');
@@ -77,19 +80,38 @@ async function uploadImage(strapi, filename, { alt } = {}) {
     data: { fileInfo: { alternativeText: alt || null } },
     files: {
       filepath: tmpPath,
-      originalFilename: webpName,
-      mimetype: 'image/webp',
+      originalFilename: outName,
+      mimetype: isSvg ? 'image/svg+xml' : 'image/webp',
       size: stats.size,
     },
   });
 
   uploadCache.set(filename, uploaded);
-  console.log(`  ✓ upload ${filename} -> ${webpName} (id ${uploaded.id})`);
+  console.log(`  ✓ upload ${filename} -> ${outName} (id ${uploaded.id})`);
   return uploaded;
+}
+
+/**
+ * Như `uploadImage` nhưng tra Media Library trước: `uploadImage` chỉ dedupe
+ * trong 1 lần chạy (Map trong bộ nhớ), nên chạy lại script sẽ tạo bản trùng.
+ * Trả về file entity đã có hoặc vừa upload.
+ */
+async function ensureImage(strapi, filename, { alt } = {}) {
+  if (uploadCache.has(filename)) return uploadCache.get(filename);
+
+  const isSvg = path.extname(filename).toLowerCase() === '.svg';
+  const storedName = isSvg ? filename : path.basename(filename, path.extname(filename)) + '.webp';
+  const existing = await strapi.db.query('plugin::upload.file').findOne({ where: { name: storedName } });
+  if (existing) {
+    uploadCache.set(filename, existing);
+    console.log(`  · dùng lại ${storedName} (id ${existing.id})`);
+    return existing;
+  }
+  return uploadImage(strapi, filename, { alt });
 }
 
 function cacheStats() {
   return { uploaded: uploadCache.size };
 }
 
-module.exports = { uploadImage, cacheStats, CLONE_IMAGES_DIR };
+module.exports = { uploadImage, ensureImage, cacheStats, CLONE_IMAGES_DIR };
