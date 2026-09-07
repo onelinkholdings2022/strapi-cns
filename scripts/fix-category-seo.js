@@ -1,28 +1,26 @@
 'use strict';
 /**
- * `api::category.category` là content type DUY NHẤT có URL/nội dung riêng mà
- * thiếu component `shared.seo` — 8 collection/single type còn lại (blog-post,
- * resource, case-study, product, service và các trang) đều đã có. Các type
- * không có là `*-setting`, `global`, `contact-dialog`, `partner`,
- * `partner-category`, `team-member`, `testimonial`: chúng chỉ là cấu hình hoặc
- * thực thể nhúng, không tự đứng thành trang, nên đúng là không cần.
+ * `category` và `partner-category` là hai content type thiếu component
+ * `shared.seo`. Những type còn lại không có (`*-setting`, `global`,
+ * `contact-dialog`, `partner`, `team-member`, `testimonial`) chỉ là cấu hình
+ * hoặc thực thể nhúng, không tự đứng thành trang, nên đúng là không cần.
  *
  * Script này lấp phần thiếu đó:
- *   1. `schema.json` của category đã thêm `seo` (component `shared.seo`) —
- *      Strapi tự tạo bảng liên kết `categories_cmps` khi boot, nên chỉ cần
- *      chạy script là schema được đồng bộ luôn.
- *   2. Điền `metaTitle` / `metaDescription` / `keywords` cho cả 10 category.
+ *   1. `schema.json` của cả hai đã thêm `seo` (component `shared.seo`) —
+ *      Strapi tự tạo bảng liên kết `*_cmps` khi boot, nên chỉ cần chạy script
+ *      là schema được đồng bộ luôn.
+ *   2. Điền `metaTitle` / `metaDescription` / `keywords` cho 10 category và
+ *      7 partner-category.
  *
- * Nội dung dưới đây viết theo đúng những bài đang thuộc từng category (đếm tại
- * thời điểm 2026-09-07), không phải copy từ site gốc: chinasourcing.co dùng
- * Rank Math và **loại trang category archive khỏi sitemap**, danh sách category
- * WordPress cũng khác hẳn 10 cái ở đây (chỉ 4/10 slug tồn tại bên đó), nên
- * không có meta gốc để bê sang.
+ * Nội dung dưới đây viết theo đúng những bài / nhóm nhà máy đang thuộc từng
+ * mục (đếm tại thời điểm 2026-09-07), không phải copy từ site gốc:
+ * chinasourcing.co dùng Rank Math và **loại trang category archive khỏi
+ * sitemap**, danh sách category WordPress cũng khác hẳn 10 cái ở đây (chỉ 4/10
+ * slug tồn tại bên đó), nên không có meta gốc để bê sang.
  *
- * `canonicalURL` và `shareImage` cố tình để trống: clone chưa có route
- * `/category/<slug>` nào — tab lọc trên `/resources` là client-side thuần, không
- * đổi URL — nên trỏ canonical vào một địa chỉ không tồn tại sẽ hại hơn là không
- * khai báo. Khi nào có route thật thì điền sau.
+ * `canonicalURL` và `shareImage` để trống: canonical do `src/lib/seo/metadata.ts`
+ * bên frontend tự dựng từ URL phẳng, điền tay ở đây chỉ tổ lệch nhau. Điền vào
+ * CMS khi nào cần trỏ sang một địa chỉ KHÁC với URL thật của trang.
  *
  * ⚠️ TẮT `npm run dev` (strapi develop) trước khi chạy:
  *   node scripts/fix-category-seo.js
@@ -30,6 +28,7 @@
 const { createStrapi, compileStrapi } = require('@strapi/strapi');
 
 const CATEGORY_UID = 'api::category.category';
+const PARTNER_CATEGORY_UID = 'api::partner-category.partner-category';
 
 // slug -> { metaTitle, metaDescription, keywords }
 const SEO = {
@@ -105,37 +104,96 @@ const SEO = {
   },
 };
 
+// `partner-category` chỉ là tab lọc của dải logo "Our Factory Partners" (trang
+// chủ + About) — không có trang riêng, không có route. SEO ở đây thuần để đủ bộ
+// và để sẵn cho lúc dải logo tách thành trang thật; hiện chưa nơi nào đọc.
+//
+// ⚠️ 4/7 slug TRÙNG slug product (`gym-fitness`, `point-of-sale`,
+// `hospitality-items`, `household-appliances`). Không sao vì partner-category
+// không tham gia định tuyến — nhưng nếu sau này cho nó URL riêng thì phải đặt
+// dưới tiền tố, đừng thả ra gốc.
+const PARTNER_SEO = {
+  'furniture-interior': {
+    metaTitle: 'Furniture & Interior Factory Partners | China Sourcing Co',
+    metaDescription:
+      'Audited furniture and interior-fitout factories in our partner network — case goods, upholstery, joinery and hospitality interiors built to spec.',
+    keywords: 'furniture factories china, interior fitout manufacturing, upholstery suppliers, joinery china',
+  },
+  'promotional-products': {
+    metaTitle: 'Promotional Products Factory Partners | China Sourcing Co',
+    metaDescription:
+      'Factories in our network producing branded merchandise and corporate gifts — decoration methods, tooling and pack-out handled end to end.',
+    keywords: 'promotional products china, corporate gifts manufacturing, branded merchandise suppliers',
+  },
+  'gym-fitness': {
+    metaTitle: 'Gym & Fitness Factory Partners | China Sourcing Co',
+    metaDescription:
+      'Vetted manufacturers of gym and fitness equipment — racks, free weights, matting and studio fit-out, made to commercial load ratings.',
+    keywords: 'gym equipment manufacturers china, fitness equipment suppliers, commercial gym fit out',
+  },
+  'point-of-sale': {
+    metaTitle: 'Point of Sale Factory Partners | China Sourcing Co',
+    metaDescription:
+      'Partner factories for retail display and point-of-sale — counters, stands, shelving and in-store fixtures, prototyped and rolled out at scale.',
+    keywords: 'point of sale displays china, retail display manufacturing, pos fixtures suppliers',
+  },
+  machinery: {
+    metaTitle: 'Machinery Factory Partners | China Sourcing Co',
+    metaDescription:
+      'Industrial machinery and equipment makers in our partner network, vetted for build quality, certification and after-sales support.',
+    keywords: 'machinery manufacturers china, industrial equipment suppliers, oem machinery sourcing',
+  },
+  'hospitality-items': {
+    metaTitle: 'Hospitality Factory Partners | China Sourcing Co',
+    metaDescription:
+      'Suppliers for hotel, restaurant and venue fit-out — furniture, tableware, textiles and back-of-house equipment built for commercial use.',
+    keywords: 'hospitality suppliers china, hotel furniture manufacturing, horeca sourcing',
+  },
+  'household-appliances': {
+    metaTitle: 'Household Appliance Factory Partners | China Sourcing Co',
+    metaDescription:
+      'Appliance manufacturers in our network, vetted for electrical safety and market certification across the small and large appliance range.',
+    keywords: 'appliance manufacturers china, small appliance oem, home appliance sourcing',
+  },
+};
+
+/** Ghi SEO cho một collection, khớp theo slug. Trả về số bản ghi đã ghi. */
+async function writeSeo(app, uid, table, label) {
+  const rows = await app.documents(uid).findMany({
+    status: 'draft',
+    pagination: { pageSize: 200 },
+    populate: ['seo'],
+  });
+  console.log(`\n${label} — ${rows.length} bản ghi`);
+
+  let written = 0;
+  for (const row of rows) {
+    const seo = table[row.slug];
+    if (!seo) {
+      console.log(`  ! bỏ qua "${row.name}" (${row.slug}) — chưa có nội dung SEO`);
+      continue;
+    }
+    await app.documents(uid).update({
+      documentId: row.documentId,
+      // Ghi đè hẳn component thay vì merge: seo đang null ở mọi bản ghi.
+      data: { seo: { ...seo, shareImage: null, canonicalURL: null, structuredData: null } },
+      status: 'published',
+    });
+    console.log(`  ✓ ${row.name.padEnd(22)} ${seo.metaTitle}`);
+    written++;
+  }
+
+  const missing = Object.keys(table).filter((s) => !rows.some((r) => r.slug === s));
+  if (missing.length) console.log(`  ! slug có trong script nhưng không có trong CMS: ${missing.join(', ')}`);
+  return { written, total: rows.length };
+}
+
 (async () => {
   const app = await createStrapi(await compileStrapi()).load();
   try {
-    const cats = await app.documents(CATEGORY_UID).findMany({
-      status: 'draft',
-      pagination: { pageSize: 200 },
-      populate: ['seo'],
-    });
-    console.log(`  ${cats.length} category trong CMS\n`);
-
-    let written = 0;
-    for (const cat of cats) {
-      const seo = SEO[cat.slug];
-      if (!seo) {
-        console.log(`  ! bỏ qua "${cat.name}" (${cat.slug}) — chưa có nội dung SEO`);
-        continue;
-      }
-      await app.documents(CATEGORY_UID).update({
-        documentId: cat.documentId,
-        // Ghi đè hẳn component thay vì merge: seo hiện đang null ở cả 10 bản ghi.
-        data: { seo: { ...seo, shareImage: null, canonicalURL: null, structuredData: null } },
-        status: 'published',
-      });
-      console.log(`  ✓ ${cat.name.padEnd(22)} ${seo.metaTitle}`);
-      written++;
-    }
-
-    const missing = Object.keys(SEO).filter((s) => !cats.some((c) => c.slug === s));
-    if (missing.length) console.log(`\n  ! slug có trong script nhưng không có trong CMS: ${missing.join(', ')}`);
-
-    console.log(`\nDone — ${written}/${cats.length} category đã có SEO.`);
+    const a = await writeSeo(app, CATEGORY_UID, SEO, 'Category');
+    const b = await writeSeo(app, PARTNER_CATEGORY_UID, PARTNER_SEO, 'Partner Category');
+    console.log(`\nDone — category ${a.written}/${a.total}, partner-category ${b.written}/${b.total}.`);
   } finally {
     await app.destroy();
   }

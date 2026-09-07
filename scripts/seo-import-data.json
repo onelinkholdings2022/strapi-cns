@@ -1,0 +1,755 @@
+{
+ "singles": {
+  "homepage": {
+   "metaTitle": "China Sourcing Co",
+   "metaDescription": "Your Trusted Sourcing & Procurement Partner in Asia."
+  },
+  "about-us-page": {
+   "metaTitle": "About China Sourcing Co",
+   "metaDescription": "Our mission is to connect you with the best factories in Asia, ensuring you get the highest quality products at the best possible prices."
+  },
+  "products-page": {
+   "metaTitle": "Products - China Sourcing Co",
+   "metaDescription": "Simplifying sourcing & manufacturing across industries"
+  },
+  "services-page": {
+   "metaTitle": "Services - China Sourcing Co",
+   "metaDescription": "We provide tailored sourcing solutions, from finding your factory to delivering the final product."
+  },
+  "process-page": {
+   "metaTitle": "Process - China Sourcing Co",
+   "metaDescription": "From product selection to delivery, our team works as an extension of yours to ensure every detail meets your standards and moves your business forward."
+  },
+  "case-studies-page": {
+   "metaTitle": "Case Studies - China Sourcing Co",
+   "metaDescription": "Explore how we help clients simplify their supply chains."
+  },
+  "resources-page": {
+   "metaTitle": "Resources - China Sourcing Co",
+   "metaDescription": "With deep expertise in China sourcing, global trade, and eCommerce, we are here to share it all to help your business run smoother and scale faster."
+  },
+  "contact-page": {
+   "metaTitle": "Contact Us - China Sourcing Co",
+   "metaDescription": "Whether you need a quick quote or full sourcing support, our team is here to help."
+  }
+ },
+ "collections": {
+  "product": {
+   "furniture": {
+    "metaTitle": "Furniture - China Sourcing Co",
+    "metaDescription": null
+   },
+   "packaging": {
+    "metaTitle": "Packaging - China Sourcing Co",
+    "metaDescription": null
+   },
+   "bags-cases": {
+    "metaTitle": "Bags & Cases - China Sourcing Co",
+    "metaDescription": null
+   },
+   "automotive-machinery": {
+    "metaTitle": "Automotive & Machinery - China Sourcing Co",
+    "metaDescription": null
+   },
+   "bedding-home": {
+    "metaTitle": "Bedding & Home - China Sourcing Co",
+    "metaDescription": null
+   },
+   "building-materials": {
+    "metaTitle": "Building Materials - China Sourcing Co",
+    "metaDescription": null
+   },
+   "chemicals-cleaning": {
+    "metaTitle": "Chemicals & Cleaning - China Sourcing Co",
+    "metaDescription": null
+   },
+   "corporate-promotional-products": {
+    "metaTitle": "Corporate & Promotional Products - China Sourcing Co",
+    "metaDescription": null
+   },
+   "food-drinks": {
+    "metaTitle": "Food & Drink Products - China Sourcing Co",
+    "metaDescription": null
+   },
+   "gym-fitness": {
+    "metaTitle": "Gym & Fitness - China Sourcing Co",
+    "metaDescription": null
+   },
+   "hardware-tools": {
+    "metaTitle": "Hardware & Tools - China Sourcing Co",
+    "metaDescription": null
+   },
+   "hospitality-items": {
+    "metaTitle": "Hospitality Items - China Sourcing Co",
+    "metaDescription": null
+   },
+   "household-appliances": {
+    "metaTitle": "Household Appliances - China Sourcing Co",
+    "metaDescription": "Household Appliances meta description"
+   },
+   "point-of-sale": {
+    "metaTitle": "Point of Sale - China Sourcing Co",
+    "metaDescription": null
+   },
+   "textiles-garments": {
+    "metaTitle": "Textiles & Garments - China Sourcing Co",
+    "metaDescription": null
+   }
+  },
+  "service": {
+   "sourcing-service": {
+    "metaTitle": "Sourcing Service - China Sourcing Co",
+    "metaDescription": null
+   },
+   "custom-manufacturing": {
+    "metaTitle": "Custom Manufacturing - China Sourcing Co",
+    "metaDescription": null
+   },
+   "quality-control": {
+    "metaTitle": "Quality Control - China Sourcing Co",
+    "metaDescription": null
+   },
+   "freight-logistics": {
+    "metaTitle": "Freight & Logistics - China Sourcing Co",
+    "metaDescription": null
+   }
+  },
+  "case-study": {
+   "prestige-residential": {
+    "metaTitle": "Prestige Residential - China Sourcing Co",
+    "metaDescription": null
+   },
+   "pillers": {
+    "metaTitle": "Pillers - China Sourcing Co",
+    "metaDescription": null
+   },
+   "byronglow": {
+    "metaTitle": "ByronGlow - China Sourcing Co",
+    "metaDescription": null
+   },
+   "echo-recovery": {
+    "metaTitle": "Echo Recovery - China Sourcing Co",
+    "metaDescription": null
+   },
+   "radiant": {
+    "metaTitle": "Radiant - China Sourcing Co",
+    "metaDescription": null
+   },
+   "boxed-storage": {
+    "metaTitle": "BOXED Storage - China Sourcing Co",
+    "metaDescription": null
+   },
+   "langfords-jewellers": {
+    "metaTitle": "Langfords Jewellers - China Sourcing Co",
+    "metaDescription": null
+   },
+   "tag-apparel": {
+    "metaTitle": "TAG Apparel - China Sourcing Co",
+    "metaDescription": null
+   },
+   "muscle-mat": {
+    "metaTitle": "Muscle Mat - China Sourcing Co",
+    "metaDescription": null
+   },
+   "the-cabinet-hub": {
+    "metaTitle": "The Cabinet Hub - China Sourcing Co",
+    "metaDescription": null
+   },
+   "afis": {
+    "metaTitle": "AFIS - China Sourcing Co",
+    "metaDescription": null
+   },
+   "stockyard": {
+    "metaTitle": "Stockyard - China Sourcing Co",
+    "metaDescription": null
+   },
+   "th7": {
+    "metaTitle": "TH7 - China Sourcing Co",
+    "metaDescription": null
+   },
+   "funny-aprons": {
+    "metaTitle": "Funny Aprons - China Sourcing Co",
+    "metaDescription": null
+   }
+  },
+  "resource": {
+   "incoterms-explained": {
+    "metaTitle": "Incoterms Explained - China Sourcing Co",
+    "metaDescription": null
+   },
+   "supplier-interview-questions-list": {
+    "metaTitle": "Supplier Interview Questions List - China Sourcing Co",
+    "metaDescription": null
+   },
+   "8-biggest-mistakes-to-avoid-when-sourcing-from-china": {
+    "metaTitle": "8 Biggest Mistakes to Avoid When Sourcing from China - China Sourcing Co",
+    "metaDescription": null
+   },
+   "china-supplier-outreach-email-scripts": {
+    "metaTitle": "China Supplier Outreach Email Scripts - China Sourcing Co",
+    "metaDescription": null
+   },
+   "custom-manufacturing-requirements-template": {
+    "metaTitle": "Custom Manufacturing Requirements Template - China Sourcing Co",
+    "metaDescription": null
+   },
+   "quality-control-inspection-checklist": {
+    "metaTitle": "Quality Control Inspection Checklist - China Sourcing Co",
+    "metaDescription": null
+   },
+   "intro-to-china-manufacturing": {
+    "metaTitle": "Intro to China Manufacturing - China Sourcing Co",
+    "metaDescription": null
+   },
+   "the-hidden-profit-leak-most-ecommerce-brands-ignore": {
+    "metaTitle": "The Hidden Profit Leak Most Ecommerce Brands Ignore - China Sourcing Co",
+    "metaDescription": null
+   }
+  },
+  "blog": {
+   "canton-fair-the-green-transformation-landmark-of-chinas-industrial-capital": {
+    "metaTitle": "Canton Fair Green Trends: China's Industrial Evolutio",
+    "metaDescription": "Explore sustainable manufacturing trends, eco-friendly products, and international green certifications from China's largest trade Canton Fair 140t"
+   },
+   "china-manufacturing-rebounds-in-march-2026-what-buyers-should-watch": {
+    "metaTitle": "China Manufacturing Rebounds in March 2026",
+    "metaDescription": "China manufacturing sector rebounds in March 2026. Explore PMI trends, rising costs, supplier capacity and what buyers should watch when sourcing from China."
+   },
+   "wholesale-packaging-supplies-from-china-where-to-buy-and-what-to-expect": {
+    "metaTitle": "Wholesale packaging supplies: Buy Top Quality Lines",
+    "metaDescription": "Source wholesale packaging supplies today. Find wholesale packaging suppliers for wholesale packaging boxes and bulk packaging via China Sourcing Co."
+   },
+   "packaging-products-and-materials-choosing-the-right-packaging-solutions-for-your-business": {
+    "metaTitle": "Commercial Packaging products and Materials: Sourcing, Selection Guide",
+    "metaDescription": "Compare packaging products and materials, including rigid boxes, flexible pouches, and high-barrier bags. Learn how to audit top suppliers."
+   },
+   "industry-specific-packaging-sourcing-guides-choosing-the-right-packaging-for-every-sector": {
+    "metaTitle": "Industry specific packaging: Select Top Lines Today",
+    "metaDescription": "Master industry specific packaging guides. Source product packaging bags and food packaging box options from vetted packaging box manufacturers worldwide."
+   },
+   "packaging-quality-control-compliance-and-logistics-a-complete-guide-for-global-brands": {
+    "metaTitle": "Packaging quality control: Select Reliable Lines Today",
+    "metaDescription": "Master packaging quality control standards. Source packaging bags and packaging box design from audited packaging box manufacturers for top bulk packaging"
+   },
+   "custom-packaging-in-china-the-complete-sourcing-guide-for-brands": {
+    "metaTitle": "Custom packaging guide: Get China Sourcing Quote Now",
+    "metaDescription": "Source custom packaging boxes directly. Partner with custom packaging manufacturers for FSC certified packaging and strict pre-shipment inspection."
+   },
+   "wholesale-packaging-from-china-the-a-z-sourcing-guide": {
+    "metaTitle": "China sourcing agent: Select Wholesale Packaging Now",
+    "metaDescription": "Discover packaging wholesale standards. Source packaging bags with China sourcing agent and certified packaging box manufacturers for reliable bulk packaging."
+   },
+   "china-packaging-sourcing-the-ultimate-hub-for-packaging-manufacturers-and-wholesale-packaging": {
+    "metaTitle": "China sourcing agent: Select Wholesale Packaging Now",
+    "metaDescription": "Discover packaging wholesale standards. Source packaging bags with china sourcing and certified packaging box manufacturers for reliable bulk packaging."
+   },
+   "chinas-march-pmi-reaches-50-4-amid-middle-east-conflict-pressures": {
+    "metaTitle": "China March PMI Hits 50.4 Amid Middle East Conflict",
+    "metaDescription": "China March PMI rose to 50.4 amid Middle East conflict risks. Discover market insights and secure procurement solutions with China Sourcing."
+   },
+   "furniture-wholesale-suppliers-the-ultimate-framework-to-vet-top-manufacturers-in-china-2025": {
+    "metaTitle": "Furniture Wholesale Suppliers: The Ultimate Framework to Vet Top Manufacturers in China [2025]",
+    "metaDescription": "A strategic due diligence framework for vetting Chinese furniture wholesale suppliers. Move beyond vanity metrics with our 10-point checklist for risk management and supply chain security."
+   },
+   "canton-fair-2026-phase-2-a-deep-dive-into-home-decor-and-gifts": {
+    "metaTitle": "Canton Fair 2026 Phase 2: A Deep Dive Into Home, Decor and Gifts",
+    "metaDescription": "Your expert guide to Canton Fair 2026 Phase 2. Explore key categories, discover 2026's top trends in home decor & gifts and get actionable strategies for finding the best suppliers."
+   },
+   "the-2026-consumer-goods-pivot-in-china": {
+    "metaTitle": "The 2026 consumer goods pivot: Why your China strategy needs an upgrade",
+    "metaDescription": "Explore the 2026 shift in consumer goods in China where regulation, innovation, and value-driven consumers redefine sourcing strategies and competitive advantage."
+   },
+   "export-compliance-2026-china-sourcing": {
+    "metaTitle": "The post-October reality: Why export compliance is the new standard in 2026 China sourcing",
+    "metaDescription": "Export compliance is reshaping global sourcing in 2026. Discover how enforcement, supplier audits, and compliance systems define supply chain resilience."
+   },
+   "the-hidden-risk-of-the-0-2-china-inflation-rate": {
+    "metaTitle": "The Hidden Risk of 0.2% China Inflation Rate: Why \"Cheap China\" might be costing you more",
+    "metaDescription": "0.2% of China inflation rate may signal low prices—but it hides serious supplier stability risks. Learn how to protect your 2025 sourcing strategy."
+   },
+   "wholesale-office-furniture-in-foshan": {
+    "metaTitle": "Sourcing Wholesale Office Furniture: An Ulitmate Guide to the Top 5 Factories in Foshan",
+    "metaDescription": "A curated guide to the top 5 wholesale office furniture factories in Foshan, China. We analyze suppliers based on BIFMA certification, export experience, and production capacity for your wholesale needs."
+   },
+   "china-furniture-industry-3-hidden-hubs": {
+    "metaTitle": "China Furniture Industry: Sourcing Beyond Foshan - 3 \"Hidden\" Hubs",
+    "metaDescription": "A strategic analysis of the China furniture industry beyond Foshan. We uncover 3 hidden manufacturing hubs, including Anji for office chairs and Hebei for metal furniture, for strategic diversification."
+   },
+   "china-factory-audit-guide-for-vetting-suppliers": {
+    "metaTitle": "China Factory Audit: A Complete Guide for Vetting Furniture Suppliers - China Sourcing Co",
+    "metaDescription": "The definitive guide to a China factory audit for furniture. We provide a strategic framework for conducting a furniture supplier audit, covering technical, social compliance, and financial checks."
+   },
+   "furniture-certification-safety-standards": {
+    "metaTitle": "Furniture Certification: A Strategic Guide to FSC, CARB P2 & Fire Safety Standards - China Sourcing Co",
+    "metaDescription": "The definitive guide to furniture certification for importers. We provide a strategic analysis of FSC certified furniture, CARB P2, and critical fire safety standards for the EU/US markets."
+   },
+   "landed-cost-furniture-an-advanced-guide": {
+    "metaTitle": "How to Calculate Landed Cost Furniture: An Advanced Guide for Importers",
+    "metaDescription": "The definitive, advanced guide to calculating landed cost furniture imports. We provide a strategic framework and detailed worksheet for import duty calculation and furniture costing."
+   },
+   "furniture-design-protection-strategic-ip-guide": {
+    "metaTitle": "Furniture Design Protection: A Strategic IP Guide for Sourcing from China - China Sourcing Co",
+    "metaDescription": "The definitive guide to furniture design protection in China. We provide a strategic framework for using Chinese design patents and NNN agreements to protect your brand during OEM/ODM production."
+   },
+   "china-furniture-supply-chain-in-depth-analysis": {
+    "metaTitle": "The China Furniture Supply Chain: An In-depth Analysis [2025] - China Sourcing Co",
+    "metaDescription": "The definitive 2000-word analysis of the China furniture supply chain. We provide a strategic framework for mastering IP protection, advanced costing, certifications, factory audits, and geographic diversification."
+   },
+   "incoterms-guide-wholesale-furniture-distributors": {
+    "metaTitle": "Incoterms for Furniture Imports: A Strategic Guide for Wholesale Furniture Distributors",
+    "metaDescription": "The definitive strategic guide to Incoterms for wholesale furniture imports. We provide an in-depth analysis of FOB, CIF, and EXW to help you control costs and mitigate risk."
+   },
+   "5-step-guide-for-wholesale-furniture-distributors": {
+    "metaTitle": "Wholesale Furniture Distributors: A 5-Step Guide to Becoming a Furniture Distributor",
+    "metaDescription": "The definitive strategic guide for wholesale furniture distributors on how to become an official furniture distributor for Chinese brands, covering everything from market analysis to logistics."
+   },
+   "strategic-analysis-wholesale-furniture-vendors": {
+    "metaTitle": "China Sourcing Agent vs. DIY: A Strategic Analysis for Large-Scale Wholesale Furniture Vendors - China Sourcing Co",
+    "metaDescription": "The definitive 3000-word analysis of using a China Sourcing Agent vs. the DIY approach, tailored for large-scale wholesale furniture vendors and distributors seeking risk management and scalability."
+   },
+   "sea-freight-vs-truck-wholesale-furniture": {
+    "metaTitle": "China Wholesale Furniture Shipping: A Strategic Analysis of Sea Freight vs. Truck",
+    "metaDescription": "The definitive analysis of sea freight vs. truck for shipping furniture from China. We provide a data-driven comparison of cost, speed, and risk to help you optimize your wholesale furniture logistics."
+   },
+   "strategic-furniture-quality-control-guide": {
+    "metaTitle": "Strategic Furniture Quality Control: The Definitive Guide to Your China QC Check",
+    "metaDescription": "The definitive 2000-word guide to furniture quality control in China. Learn the AQL system, the 3 stages of a professional china qc check, and how to protect your wholesale furniture investment."
+   },
+   "guide-for-wholesale-furniture-distributors": {
+    "metaTitle": "China Furniture Logistics: A Strategic Guide for Wholesale Furniture Distributors to Mastering QC & Shipping",
+    "metaDescription": "The definitive 2000-word anchor guide for wholesale furniture distributors on China logistics. We cover the entire chain from furniture QC and shipping to warehousing and distribution strategy."
+   },
+   "wholesale-boho-furniture-guide": {
+    "metaTitle": "Sourcing Wholesale Boho Furniture: The Strategic Guide to Authenticity, Quality, and Profit - China Sourcing Co",
+    "metaDescription": "The definitive 2000-word guide to sourcing wholesale boho furniture. We analyze the material science of rattan and natural woods, and provide a framework for vetting a specialist boho furniture supplier in China."
+   },
+   "sourcing-school-furniture-wholesale": {
+    "metaTitle": "Strategic Sourcing for School Furniture Wholesale: The Definitive Guide to Safety, Durability, and Long-Term Value - China Sourcing Co",
+    "metaDescription": "The definitive 2000-word guide to sourcing school furniture wholesale. We conduct a deep-dive analysis of safety standards (CPSIA), material science, and TCO to help you find a world-class school desk supplier."
+   },
+   "case-study-coffee-shop-furniture-wholesale": {
+    "metaTitle": "Case Study: Sourcing Coffee Shop Furniture Wholesale from China",
+    "metaDescription": "A detailed case study on sourcing coffee shop furniture wholesale. See how we helped a client save 45% while achieving a high-end look with a specialist cafe furniture supplier."
+   },
+   "restaurant-furniture-wholesale-tips": {
+    "metaTitle": "Sourcing Restaurant Furniture Wholesale: 7 Expert Tips for F&B Buyers - China Sourcing Co",
+    "metaDescription": "An expert guide to sourcing restaurant furniture wholesale. We cover commercial-grade durability, material selection, and how to vet a specialist cafe furniture supplier."
+   },
+   "outdoor-furniture-wholesale-trends-2026": {
+    "metaTitle": "Outdoor Furniture Wholesale Trends for 2026: A Complete Buyer's Guide",
+    "metaDescription": "A strategic analysis of the top outdoor furniture wholesale trends for wholesale buyers. We break down how modularity, sustainability, and tech integration impact ROI and sourcing decisions."
+   },
+   "outdoor-furniture-wholesale-secrets-china": {
+    "metaTitle": "Sourcing Outdoor Furniture Wholesale: Quality Secrets from China Revealed - China Sourcing Co",
+    "metaDescription": "An expert guide to sourcing durable outdoor furniture wholesale from China. We reveal the quality secrets behind material selection, UV resistance, and supplier vetting for patio and garden furniture."
+   },
+   "strategic-sourcing-wholesale-office-furniture": {
+    "metaTitle": "Strategic Sourcing for Wholesale Office Furniture: A Step-by-Step Guide from China - China Sourcing Co",
+    "metaDescription": "A step-by-step guide for sourcing wholesale office furniture from China. We cover supplier selection, quality standards, and the critical BIFMA certification process."
+   },
+   "niche-wholesale-furniture-strategic-guide": {
+    "metaTitle": "Niche Wholesale Furniture: A Strategic Sourcing Guide to Office, Outdoor & Cafe Niches [2026]",
+    "metaDescription": "The definitive anchor guide to sourcing niche wholesale furniture. We provide a strategic overview of office, outdoor, and restaurant furniture wholesale, linking to in-depth expert guides."
+   },
+   "wholesale-furniture-china-import-costs-2026": {
+    "metaTitle": "Landed Cost Mastery for Wholesale Furniture: A Complete Breakdown of China Import Costs [2026]",
+    "metaDescription": "A strategic breakdown of all import costs for China wholesale furniture businesses. We analyze China shipping cost, import tax furniture, and calculate the final landed cost to reveal your true profitability."
+   },
+   "vetting-furniture-wholesale-suppliers-in-china": {
+    "metaTitle": "Furniture Wholesale Suppliers: The Ultimate Framework to Vet Top Manufacturers in China [2026]",
+    "metaDescription": "A strategic due diligence framework for vetting Chinese furniture wholesale suppliers. Move beyond vanity metrics with our 10-point checklist for risk management and supply chain security."
+   },
+   "moq-in-furniture-sourcing-tips-2026": {
+    "metaTitle": "What is MOQ in Furniture Sourcing? (+ Proven Negotiation Tips 2026)",
+    "metaDescription": "An expert guide to Minimum Order Quantity - MOQ in furniture sourcing. Learn why MOQs exist, financial risks, and strategic tips for negotiating better terms."
+   },
+   "alibaba-vs-1688-furniture": {
+    "metaTitle": "Alibaba vs 1688 Furniture: Which B2B Platform is Best? [2026] - China Sourcing Co",
+    "metaDescription": "An in-depth strategic analysis of Alibaba vs 1688 for sourcing wholesale furniture. Learn the critical differences in price, suppliers, and risks to choose the best B2B platform."
+   },
+   "strategic-guide-to-chinas-top-5-furniture-cities": {
+    "metaTitle": "Wholesale Furniture Suppliers: A Strategic Guide to China's Top 5 Furniture Cities - China Sourcing Co",
+    "metaDescription": "Guide to China’s top 5 furniture cities — including Foshan and Dongguan — to help you find the best wholesale furniture suppliers."
+   },
+   "wholesale-furniture-from-china-the-a-z-sourcing-guide-2026": {
+    "metaTitle": "Wholesale Furniture from China: The A-Z Sourcing Guide 2026",
+    "metaDescription": "The definitive A-Z guide to China furniture sourcing. We provide a strategic framework for finding wholesale furniture suppliers, vetting factories, and calculating your true landed cost."
+   },
+   "china-furniture-sourcing-the-ultimate-hub-2025-2": {
+    "metaTitle": "China Furniture Sourcing: The Ultimate Hub [2025] - China Sourcing Co",
+    "metaDescription": "The ultimate hub for China furniture sourcing. This page acts as the central navigation to our definitive guides on the A-Z process, niche markets, advanced logistics, and expert supply chain analysis."
+   },
+   "canton-fair-phase-3-2026": {
+    "metaTitle": "Canton Fair Phase 3 2026: Explore Textiles, Fashion and Healthcare",
+    "metaDescription": "A complete guide to Canton Fair Phase 3 2026. Discover key categories like textiles, fashion, and healthcare at this leading Guangzhou fair, with expert tips on trends and compliance."
+   },
+   "field-manual-for-the-canton-fair-complex": {
+    "metaTitle": "A Field Manual for the Canton Fair Complex 2026",
+    "metaDescription": "The best field manual for the Canton Fair Complex. Master Areas A, B, & C, learn navigation strategies, find the best facilities and conquer this massive Guangzhou fair location."
+   },
+   "canton-fair-registration-guide": {
+    "metaTitle": "The Complete Canton Fair Registration Guide for 2026",
+    "metaDescription": "Complete Canton Fair registration guide 2026 including how to apply for a badge, invitation letter, visa checklist, deadlines and first-time buyer mistakes to avoid."
+   },
+   "guide-to-canton-fair-hotels": {
+    "metaTitle": "The Best Guide to Canton Fair Hotels (2026 Edition)",
+    "metaDescription": "A detailed guide to the best Canton Fair hotels. Compare luxury and value hotels near the complex, understand different districts and get expert booking tips for Canton Fair 2026."
+   },
+   "canton-fair-2026-phase-2": {
+    "metaTitle": "Canton Fair 2026 Phase 2: A Deep Dive Into Home, Decor and Gifts",
+    "metaDescription": "Your expert guide to Canton Fair 2026 Phase 2. Explore key categories, discover 2026's top trends in home decor & gifts and get actionable strategies for finding the best suppliers."
+   },
+   "canton-fair-2026-phase-1": {
+    "metaTitle": "Canton Fair 2026 Phase 1: What You'll Find and Who Should Attend",
+    "metaDescription": "A complete guide of the Canton Fair 2026 Phase 1. Discover key product categories, expert strategies for engaging technical suppliers and crucial mistakes to avoid."
+   },
+   "canton-fair-2026-ultimate-guide": {
+    "metaTitle": "Canton Fair 2026: The Ultimate Guide for International Buyers",
+    "metaDescription": "Your ultimate guide to the Canton Fair 2026. Covering everything from registration, official dates, phase schedules and tips for first-time buyers and seasoned importers."
+   },
+   "understanding-the-different-types-of-product-sourcing-models-for-e-commerce": {
+    "metaTitle": "Understanding the Different Types of Product Sourcing Models for E-commerce - China Sourcing Co",
+    "metaDescription": null
+   },
+   "electronics-sourcing-in-china-navigating-risks": {
+    "metaTitle": "Electronics Sourcing in China: Navigating IP Risks and Supplier Vetting",
+    "metaDescription": "Explore the intricacies of electronics sourcing in China, focusing on how to navigate IP risks and effectively vet suppliers."
+   },
+   "packaging-sourcing-in-china-high-quality": {
+    "metaTitle": "Packaging Sourcing in China: Secure High-Quality Packaging at Competitive Prices",
+    "metaDescription": "Optimize packaging sourcing in China with cost-effective, high-quality solutions. Find trusted China sourcing agents and top packaging suppliers."
+   },
+   "building-materials-sourcing-in-china": {
+    "metaTitle": "Building Materials Sourcing in China | Best Price Guide",
+    "metaDescription": "Ultimate guide to building materials sourcing in China: strategies, real case studies, and working with China sourcing services for reliable suppliers."
+   },
+   "sourcing-manufacturers-in-china-ultimate-guide": {
+    "metaTitle": "Sourcing Manufacturers in China: The Ultimate Guide to Finding the Best Factories",
+    "metaDescription": "The ultimate guide to sourcing manufacturers in China, covering strategies, real case studies, and working with a China product sourcing agent."
+   },
+   "furniture-sourcing-agent-china-at-best-price": {
+    "metaTitle": "Furniture Sourcing Agent China: How to Source High-Quality Furniture at the Best Price",
+    "metaDescription": "Learn how a furniture sourcing agent China helps you find top-quality furniture at competitive prices with diverse styles, and seamless logistics."
+   },
+   "china-wholesale-suppliers-list-deals": {
+    "metaTitle": "China Wholesale Suppliers List Unlock the Best Deals and Long-Term Partnerships",
+    "metaDescription": "China wholesale suppliers list: Find reliable suppliers, negotiate the best deals, and build profitable, long-term partnerships while avoiding costly sourcing mistakes."
+   },
+   "sourcing-hubs-in-china-is-best-for-business": {
+    "metaTitle": "Which Sourcing Hubs in China is Best for Your Business?",
+    "metaDescription": "Looking for top sourcing hubs in China? Compare Guangzhou, Shenzhen, and Yiwu to find the best sourcing hub for your business."
+   },
+   "how-to-choose-best-china-sourcing-agent": {
+    "metaTitle": "Best China Sourcing Agent: How to Choose the Right One for Your Business",
+    "metaDescription": "Explore how to choose the best China sourcing agent, backed by real-world experiences, reliable statistics, and practical insights."
+   },
+   "china-sourcing-without-losing-money": {
+    "metaTitle": "China Sourcing: How to Source from China Without Losing Money",
+    "metaDescription": "Stop wasting money on unreliable suppliers! Discover expert-backed strategies to China sourcing safely, avoid scams, and maximize profitability."
+   },
+   "sourcing-in-china-to-boost-profitability": {
+    "metaTitle": "Sourcing in China: A C-Level Playbook for Cost Efficiency, Risk Mitigation, and Supply Chain Optimization",
+    "metaDescription": "Sourcing in China goes beyond cost-cutting. Discover strategies for supply chain resilience, risk mitigation, and supplier optimization to boost profitability."
+   },
+   "e-commerce-shipping-and-fulfillment-best-practices-for-a-seamless-experience-onelink-holdings": {
+    "metaTitle": "E-commerce Shipping and Fulfillment: Best Practices for a Seamless Experience - China Sourcing Co",
+    "metaDescription": null
+   },
+   "sustainable-manufacturing-a-comprehensive-guide": {
+    "metaTitle": "Sustainable Manufacturing: A Comprehensive Guide - China Sourcing Co",
+    "metaDescription": null
+   },
+   "common-mistakes-doing-business-in-asia": {
+    "metaTitle": "Avoiding Common Mistakes when Doing Business in Asia",
+    "metaDescription": "Doing business in Asia can be highly rewarding, discover common mistakes, expert tips, and strategies to optimize your operation."
+   },
+   "going-global-expanding-your-product-sourcing-and-manufacturing-to-asia-onelink-holdings": {
+    "metaTitle": "Going Global: Expanding Your Product Sourcing and Manufacturing to Asia - China Sourcing Co",
+    "metaDescription": null
+   },
+   "understanding-the-different-types-of-product-sourcing-models-for-e-commerce-onelink-holdings": {
+    "metaTitle": "Understanding the Different Types of Product Sourcing Models for E-commerce | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "the-pros-and-cons-of-sourcing-products-internationally-for-your-e-commerce-store-onelink-holdings": {
+    "metaTitle": "The Pros and Cons of Sourcing Products Internationally for Your E-commerce Store | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "how-to-use-seo-to-drive-traffic-to-your-ecommerce-store-onelink-holdings": {
+    "metaTitle": "How to Use SEO to Drive Traffic to Your eCommerce Store | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "10-best-e-commerce-platforms-for-small-businesses-onelink-holdings": {
+    "metaTitle": "10 Best E-commerce Platforms for Small Businesses | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "10-common-mistakes-to-avoid-in-product-sourcing-and-manufacturing": {
+    "metaTitle": "10 Common Mistakes to Avoid in Product Sourcing and Manufacturing - China Sourcing Co",
+    "metaDescription": null
+   },
+   "understanding-freight-rates-a-breakdown-of-the-various-components-that-make-up-freight-rates": {
+    "metaTitle": "Understanding Freight Rates: A breakdown of the various components that make up freight rates - China Sourcing Co",
+    "metaDescription": null
+   },
+   "navigating-intellectual-property-protection-in-vietnam-manufacturing-onelink-holdings": {
+    "metaTitle": "Navigating Intellectual Property Protection in Vietnam Manufacturing | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "vietnam-manufacturing-and-the-global-market-trends-and-insights-onelink-holdings": {
+    "metaTitle": "Vietnam Manufacturing and the Global Market: Trends and Insights | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "chinas-manufacturing-infrastructure-a-backbone-of-the-worlds-factory": {
+    "metaTitle": "China's Manufacturing Infrastructure: A Backbone of the World's Factory - China Sourcing Co",
+    "metaDescription": null
+   },
+   "ecommerce-design-best-practices-tips-for-designing-a-user-friendly-and-visually-appealing-ecommerce-website-onelink-holdings": {
+    "metaTitle": "eCommerce Design Best Practices: Tips for Designing a User-Friendly and Visually Appealing eCommerce Website | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "discovering-the-secret-to-finding-reliable-suppliers-in-manufacturing-onelink-holdings": {
+    "metaTitle": "Discovering the Secret to Finding Reliable Suppliers in Manufacturing | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "vietnams-manufacturing-hubs-for-top-brand-names-onelink-holdings": {
+    "metaTitle": "Vietnam's Manufacturing Hubs for Top Brand Names | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "the-impact-of-technology-on-logistics-onelink-holdings": {
+    "metaTitle": "The Impact of Technology on Logistics | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "the-future-of-product-sourcing-and-manufacturing-in-asia-trends-and-predictions": {
+    "metaTitle": "The Future of Product Sourcing and Manufacturing in Asia: Trends and Predictions - China Sourcing Co",
+    "metaDescription": null
+   },
+   "cultural-considerations-for-doing-business-in-vietnamcultural-considerations-onelink-holdings": {
+    "metaTitle": "Cultural Considerations for Doing Business in Vietnam - OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "creating-a-content-marketing-strategy-tips-and-best-practices-onelink-holdings": {
+    "metaTitle": "Creating a Content Marketing Strategy: Tips and Best Practices | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "rules-and-regulations-for-importing-and-exporting-from-vietnam-onelink-holdings": {
+    "metaTitle": "Rules and Regulations for Importing and Exporting from Vietnam | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "tips-for-sourcing-and-working-with-chinese-manufacturers": {
+    "metaTitle": "Tips for Sourcing and Working with Chinese Manufacturers - China Sourcing Co",
+    "metaDescription": null
+   },
+   "the-impact-of-us-china-trade-tensions-on-china-manufacturing-what-you-need-to-know": {
+    "metaTitle": "The Impact of US-China Trade Tensions on China Manufacturing: What You Need to Know - China Sourcing Co",
+    "metaDescription": null
+   },
+   "the-product-sourcing-process-a-step-by-step-guide": {
+    "metaTitle": "The Product Sourcing Process: A Step-by-Step Guide - China Sourcing Co",
+    "metaDescription": null
+   },
+   "finding-the-right-custom-merchandise-for-your-business-in-asia-onelink-holdings": {
+    "metaTitle": "Finding the Right Custom Merchandise for Your Business in Asia | OneLink Holdings  - China Sourcing Co",
+    "metaDescription": null
+   },
+   "what-is-logistics-and-why-does-it-matter-onelink-holdings": {
+    "metaTitle": "What Is Logistics and Why Does It Matter? | OneLink Holdings  - China Sourcing Co",
+    "metaDescription": null
+   },
+   "10-marketing-trends-to-keep-your-business-ahead-of-the-curve-in-2023-onelink-holdings": {
+    "metaTitle": "10 Marketing Trends to Keep Your Business Ahead of the Curve in 2023 | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "sourcing-pet-products-from-asia-the-complete-guide-onelink-holdings": {
+    "metaTitle": "Sourcing Pet Products from Asia - The Complete Guide | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "the-future-of-freight-forwarding-in-2023-onelink-holdings": {
+    "metaTitle": "The Future of Freight Forwarding in 2023 | OneLink Holdings  - China Sourcing Co",
+    "metaDescription": null
+   },
+   "sourcing-activewear-in-vietnam-an-overview-onelink-holdings": {
+    "metaTitle": "Sourcing Activewear in Vietnam: An Overview | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "what-is-demand-forecasting-and-why-its-important-for-businesses-onelink-holdings": {
+    "metaTitle": "What is Demand Forecasting and Why It's Important for Businesses | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "understanding-shipping-delays-causes-and-solutions-onelink-holdings": {
+    "metaTitle": "Understanding Shipping Delays: Causes and Solutions | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "designing-custom-packaging-for-your-business-onelink-holdings": {
+    "metaTitle": "Designing Custom Packaging for Your Business | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "5-reasons-to-relocate-your-supply-chain-to-vietnam-onelink-holdings": {
+    "metaTitle": "5 Reasons to Relocate Your Supply Chain to Vietnam | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "all-you-need-to-know-about-finding-and-manufacturing-home-decor-in-vietnam-onelink-holdings": {
+    "metaTitle": "All You Need to Know About Finding and Manufacturing Home Décor in Vietnam | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "freight-insurance-your-questions-answered-onelink-holdings": {
+    "metaTitle": "Freight Insurance: Your Questions Answered | OneLink Holdings  - China Sourcing Co",
+    "metaDescription": null
+   },
+   "a-closer-look-at-luxury-packaging-in-asia-onelink-holdings": {
+    "metaTitle": "A Closer Look at Luxury Packaging in Asia | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "understanding-third-party-warehousing-onelink-holdings": {
+    "metaTitle": "Understanding Third-Party Warehousing | OneLink Holdings  - China Sourcing Co",
+    "metaDescription": null
+   },
+   "why-chinese-manufacturing-is-world-renowned-onelink-holdings": {
+    "metaTitle": "Why Chinese Manufacturing is World-Renowned | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "sea-freight-vs-air-freight-which-is-the-best-for-your-business-onelink-holdings": {
+    "metaTitle": "Sea Freight Vs Air Freight: Which Is The Best For Your Business? | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "understanding-minimum-order-quantities-moq-onelink-holdings": {
+    "metaTitle": "Understanding Minimum Order Quantities (MOQ) | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "everything-you-need-to-know-about-vietnams-free-trade-agreements-onelink-holdings": {
+    "metaTitle": "Everything You Need to Know About Vietnam's Free Trade Agreements | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "5-tips-on-how-to-package-your-goods-for-international-shipping-onelink-holdings": {
+    "metaTitle": "5 Tips on How to Package Your Goods for International Shipping | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "a-comprehensive-look-at-the-vietnam-furniture-onelink-holdings": {
+    "metaTitle": "A Comprehensive Look at the Vietnam Furniture | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "the-importance-of-ethical-manufacturing-in-asia-onelink-holdings": {
+    "metaTitle": "The Importance of Ethical Manufacturing in Asia | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "a-guide-to-vietnam-food-and-beverage-manufacturing-onelink-holdings": {
+    "metaTitle": "A Guide to Vietnam Food and Beverage Manufacturing | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "taking-your-product-from-concept-to-market-a-how-to-guide-onelink-holdings": {
+    "metaTitle": "Taking Your Product from Concept to Market: A How-To Guide | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "how-to-cut-manufacturing-costs-without-compromising-quality-onelink-holdings": {
+    "metaTitle": "How to Cut Manufacturing Costs Without Compromising Quality | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "lunar-new-year-and-your-business-what-you-need-to-know-onelink-holdings": {
+    "metaTitle": "Lunar New Year and your business: What you Need to Know | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "how-to-simplify-the-process-of-international-shipping-and-freight-one-link-holdings": {
+    "metaTitle": "How to Simplify the Process of International Shipping and Freight | One Link Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "all-you-need-to-know-about-incoterms-onelink-holdings": {
+    "metaTitle": "All You Need to Know About Incoterm's | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "why-manufacturing-in-vietnam-is-a-great-choice-for-electronics-onelink-holdings": {
+    "metaTitle": "Why manufacturing in Vietnam is a great choice for electronics | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "e-commerce-101-a-beginners-guide-to-getting-started-with-onelink-holdings": {
+    "metaTitle": "E-commerce 101: A Beginner's Guide to Getting Started with OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "how-to-ensure-youre-getting-the-highest-quality-products-possible-when-sourcing-from-asia": {
+    "metaTitle": "How to ensure you're getting the highest quality products possible when sourcing from Asia  - China Sourcing Co",
+    "metaDescription": null
+   },
+   "the-top-low-cost-sourcing-countries-for-your-business-onelink-holdings": {
+    "metaTitle": "The Top Low Cost Sourcing Countries for your Business| OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "10-tips-to-reduce-freight-transportation-costs-onelink-holdings": {
+    "metaTitle": "10 Tips To Reduce Freight Transportation Costs |OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "why-import-from-china-the-benefits-and-drawbacks-that-might-surprise-you-onelink-holdings": {
+    "metaTitle": "Why import from China? The benefits and drawbacks that might surprise you | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "the-perfect-product-how-to-find-and-manufacture-the-right-product-for-your-business-one-link-holdings": {
+    "metaTitle": "The Perfect Product: How to find and manufacture the right product for your business | One Link Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "10-tips-to-negotiate-like-a-pro-and-get-the-best-deals-from-suppliers-onelink-holdings": {
+    "metaTitle": "10 Tips to Negotiate like a Pro and Get the Best Deals from Suppliers | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "onelink-holdings-guide-to-the-textile-and-garment-industry-in-vietnam-onelink-holdings": {
+    "metaTitle": "OneLink Holdings Guide to The Textile and Garment industry in Vietnam | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "why-choosing-the-right-supply-chain-management-company-is-critical-for-businesses-onelink-holdings": {
+    "metaTitle": "Why choosing the right supply chain management company is critical for businesses | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "sourcing-and-manufacturing-products-in-asia-what-you-need-to-know-one-link-holdings": {
+    "metaTitle": "Sourcing and Manufacturing Products in Asia – What You Need to Know | One Link Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "the-rise-of-the-hm-empire-one-link-holdings": {
+    "metaTitle": "The Rise of the H&M Empire | One Link Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "manufacturing-in-vietnam-the-new-china-onelink-holdings": {
+    "metaTitle": "Manufacturing in Vietnam – The New China? | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "5-tips-for-sourcing-products-for-your-business-onelink-holdings": {
+    "metaTitle": "5 Tips For Sourcing Products For Your Business | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "how-to-import-from-china-a-guide-for-australian-businesses-onelink-holdings": {
+    "metaTitle": "How to Import From China: A Guide for Australian Businesses | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "the-benefits-of-working-with-a-freight-and-logistics-company-onelink-holdings": {
+    "metaTitle": "The Benefits of Working with a Freight and Logistics Company | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "onelink-holdings-guide-to-exporting-from-vietnam-to-australia-tariffs-and-charges-included": {
+    "metaTitle": "Ultimate Guide to Exporting from Vietnam to Australia, Tariffs and Charges Included | OneLink Holdings - China Sourcing Co",
+    "metaDescription": null
+   },
+   "building-agile-supply-chains-optimizing-global-sourcing-for-a-resilient-future": {
+    "metaTitle": "China Plus One Strategy: Building Agile Global Supply Chains",
+    "metaDescription": "Discover how the China Plus One Strategy builds agile supply chains, mitigates disruption risks, and evaluates top alternative manufacturing hubs like Vietnam."
+   },
+   "reaching-the-6-3-trillion-mark-chinas-trade-demonstrates-remarkable-resilience-and-a-shift-toward-high-value-activities": {
+    "metaTitle": "China's Trade Hits Record $6.3 Trillion: Supply Chain & AI Shift",
+    "metaDescription": "China's trade reached an all-time high of $6.3 trillion in 2025. Discover how AI-driven smart manufacturing and resilient supply chains drive this growth."
+   }
+  }
+ },
+ "_uid": {
+  "singles": {
+   "homepage": "api::homepage.homepage",
+   "about-us-page": "api::about-us-page.about-us-page",
+   "products-page": "api::products-page.products-page",
+   "services-page": "api::services-page.services-page",
+   "process-page": "api::process-page.process-page",
+   "case-studies-page": "api::case-studies-page.case-studies-page",
+   "resources-page": "api::resources-page.resources-page",
+   "contact-page": "api::contact-page.contact-page"
+  },
+  "collections": {
+   "product": "api::product.product",
+   "service": "api::service.service",
+   "case-study": "api::case-study.case-study",
+   "resource": "api::resource.resource",
+   "blog": "api::blog-post.blog-post"
+  }
+ }
+}

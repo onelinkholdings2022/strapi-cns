@@ -99,5 +99,10 @@ export function applyDeepPopulate(
 ): void {
   const query = ctx.query ?? {};
   if (query.populate !== undefined) return;
+  // `fields` cũng là lời khai "tôi biết mình cần gì". Không tôn trọng nó thì
+  // `?fields[0]=slug` vẫn trả nguyên cây — đúng cái bẫy ở trên, chỉ khác là
+  // client tưởng mình đã xin bản gọn rồi. Bảng định tuyến URL phẳng bên frontend
+  // (`src/lib/routing/routeSlugs.ts`) là chỗ đầu tiên dính.
+  if (query.fields !== undefined) return;
   ctx.query = { ...query, populate: buildDeepPopulate(strapi, uid) };
 }
