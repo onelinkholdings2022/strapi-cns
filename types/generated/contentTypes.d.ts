@@ -730,6 +730,7 @@ export interface ApiCategoryCategory extends Struct.CollectionTypeSchema {
       'manyToMany',
       'api::resource.resource'
     >;
+    seo: Schema.Attribute.Component<'shared.seo', false>;
     slug: Schema.Attribute.UID<'name'>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -900,6 +901,7 @@ export interface ApiPartnerCategoryPartnerCategory
     name: Schema.Attribute.String & Schema.Attribute.Required;
     order: Schema.Attribute.Integer;
     publishedAt: Schema.Attribute.DateTime;
+    seo: Schema.Attribute.Component<'shared.seo', false>;
     slug: Schema.Attribute.UID<'name'>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -1131,6 +1133,40 @@ export interface ApiResourceSettingResourceSetting
   };
 }
 
+export interface ApiResourceTypeResourceType
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'resource_types';
+  info: {
+    description: 'Tab l\u1ECDc c\u1EE7a kh\u1ED1i Free Resources tr\u00EAn /resources. M\u1ED7i lo\u1EA1i c\u00F3 URL ri\u00EAng \u1EDF g\u1ED1c site (/checklists, /ebook, \u2026) n\u00EAn ph\u1EA3i l\u00E0 b\u1EA3n ghi th\u1EADt, c\u00F3 slug v\u00E0 SEO \u2014 kh\u00F4ng ph\u1EA3i enum ghi c\u1EE9ng.';
+    displayName: 'Resource Type';
+    pluralName: 'resource-types';
+    singularName: 'resource-type';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::resource-type.resource-type'
+    > &
+      Schema.Attribute.Private;
+    name: Schema.Attribute.String & Schema.Attribute.Required;
+    order: Schema.Attribute.Integer;
+    publishedAt: Schema.Attribute.DateTime;
+    resources: Schema.Attribute.Relation<'oneToMany', 'api::resource.resource'>;
+    seo: Schema.Attribute.Component<'shared.seo', false>;
+    slug: Schema.Attribute.UID<'name'>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiResourceResource extends Struct.CollectionTypeSchema {
   collectionName: 'resources';
   info: {
@@ -1178,6 +1214,10 @@ export interface ApiResourceResource extends Struct.CollectionTypeSchema {
     seo: Schema.Attribute.Component<'shared.seo', false>;
     slug: Schema.Attribute.UID<'title'>;
     title: Schema.Attribute.String & Schema.Attribute.Required;
+    type: Schema.Attribute.Relation<
+      'manyToOne',
+      'api::resource-type.resource-type'
+    >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1956,6 +1996,7 @@ declare module '@strapi/strapi' {
       'api::product.product': ApiProductProduct;
       'api::products-page.products-page': ApiProductsPageProductsPage;
       'api::resource-setting.resource-setting': ApiResourceSettingResourceSetting;
+      'api::resource-type.resource-type': ApiResourceTypeResourceType;
       'api::resource.resource': ApiResourceResource;
       'api::resources-page.resources-page': ApiResourcesPageResourcesPage;
       'api::service-setting.service-setting': ApiServiceSettingServiceSetting;

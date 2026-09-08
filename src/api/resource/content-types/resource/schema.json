@@ -65,6 +65,12 @@
       ],
       "default": "Other"
     },
+    "type": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::resource-type.resource-type",
+      "inversedBy": "resources"
+    },
     "gated": {
       "type": "boolean",
       "default": false
