@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_legal_text_sections",
+  "info": {
+    "displayName": "Text Section",
+    "icon": "file",
+    "description": "Một cụm <h3> + thân bài WYSIWYG trong trang pháp lý."
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    }
+  }
+}

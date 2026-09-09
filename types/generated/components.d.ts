@@ -503,6 +503,25 @@ export interface LayoutNavbar extends Struct.ComponentSchema {
   };
 }
 
+export interface LegalTextSection extends Struct.ComponentSchema {
+  collectionName: 'components_legal_text_sections';
+  info: {
+    description: 'M\u1ED9t c\u1EE5m <h3> + th\u00E2n b\u00E0i WYSIWYG trong trang ph\u00E1p l\u00FD.';
+    displayName: 'Text Section';
+    icon: 'file';
+  };
+  attributes: {
+    body: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    heading: Schema.Attribute.String;
+  };
+}
+
 export interface ProcessTimeline extends Struct.ComponentSchema {
   collectionName: 'components_process_timelines';
   info: {
@@ -1053,6 +1072,7 @@ declare module '@strapi/strapi' {
       'elements.title-segment': ElementsTitleSegment;
       'layout.footer': LayoutFooter;
       'layout.navbar': LayoutNavbar;
+      'legal.text-section': LegalTextSection;
       'process.timeline': ProcessTimeline;
       'process.timeline-step': ProcessTimelineStep;
       'product.source-item': ProductSourceItem;

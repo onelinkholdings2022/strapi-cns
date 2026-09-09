@@ -16,6 +16,7 @@ const PUBLIC_TYPES = [
   'api::services-page.services-page','api::service-setting.service-setting','api::process-page.process-page',
   'api::case-studies-page.case-studies-page','api::case-study-setting.case-study-setting',
   'api::resources-page.resources-page','api::resource-setting.resource-setting','api::contact-page.contact-page',
+  'api::privacy-policy-page.privacy-policy-page',
   'api::category.category','api::resource.resource','api::resource-type.resource-type',
   'api::product.product','api::service.service',
   'api::case-study.case-study','api::testimonial.testimonial','api::partner.partner',
