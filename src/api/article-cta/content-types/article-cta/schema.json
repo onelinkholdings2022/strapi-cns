@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_ctas",
+  "info": {
+    "singularName": "article-cta",
+    "pluralName": "article-ctas",
+    "displayName": "Article CTA Box",
+    "description": "Khung kêu gọi hành động chèn vào giữa thân bài blog/resource. Tạo khung ở đây, rồi trong ô Content của bài bấm nút \"CTA Box\" trên thanh công cụ CKEditor để chèn vào đúng chỗ muốn. Variant: light = nền nhạt, nút xanh; heavy = nền navy đậm, nút trắng. Một khung dùng lại được ở nhiều bài — sửa ở đây là mọi bài đang chèn nó đổi theo."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": ["light", "heavy"],
+      "default": "light",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "buttonUrl": {
+      "type": "string"
+    }
+  }
+}

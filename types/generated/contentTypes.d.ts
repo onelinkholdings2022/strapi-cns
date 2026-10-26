@@ -522,6 +522,43 @@ export interface ApiAboutUsPageAboutUsPage extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiArticleCtaArticleCta extends Struct.CollectionTypeSchema {
+  collectionName: 'article_ctas';
+  info: {
+    description: 'Khung k\u00EAu g\u1ECDi h\u00E0nh \u0111\u1ED9ng ch\u00E8n v\u00E0o gi\u1EEFa th\u00E2n b\u00E0i blog/resource.';
+    displayName: 'Article CTA Box';
+    pluralName: 'article-ctas';
+    singularName: 'article-cta';
+  };
+  options: {
+    draftAndPublish: false;
+  };
+  attributes: {
+    buttonLabel: Schema.Attribute.String;
+    buttonUrl: Schema.Attribute.String;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.Text;
+    heading: Schema.Attribute.String & Schema.Attribute.Required;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::article-cta.article-cta'
+    > &
+      Schema.Attribute.Private;
+    name: Schema.Attribute.String & Schema.Attribute.Required;
+    publishedAt: Schema.Attribute.DateTime;
+    slug: Schema.Attribute.UID<'name'> & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    variant: Schema.Attribute.Enumeration<['light', 'heavy']> &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'light'>;
+  };
+}
+
 export interface ApiBlogPostBlogPost extends Struct.CollectionTypeSchema {
   collectionName: 'blog_posts';
   info: {
@@ -2012,6 +2049,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
       'api::about-us-page.about-us-page': ApiAboutUsPageAboutUsPage;
+      'api::article-cta.article-cta': ApiArticleCtaArticleCta;
       'api::blog-post.blog-post': ApiBlogPostBlogPost;
       'api::case-studies-page.case-studies-page': ApiCaseStudiesPageCaseStudiesPage;
       'api::case-study-setting.case-study-setting': ApiCaseStudySettingCaseStudySetting;

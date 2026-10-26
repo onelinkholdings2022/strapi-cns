@@ -21,6 +21,7 @@ const PUBLIC_TYPES = [
   'api::product.product','api::service.service',
   'api::case-study.case-study','api::testimonial.testimonial','api::partner.partner',
   'api::partner-category.partner-category','api::team-member.team-member',
+  'api::article-cta.article-cta',
 ];
 
 async function openPublicPermissions(strapi) {
