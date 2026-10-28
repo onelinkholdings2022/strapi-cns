@@ -44,14 +44,31 @@ const STYLE_ID = 'cns-article-cta-editor-style';
 
 /** Bộ nhớ đệm dùng chung cho mọi editor trên trang (một bài có thể có 2 ô CKEditor). */
 const cache = new Map<string, ArticleCta>();
-let loading: Promise<void> | null = null;
+/** Dấu vân tay của lần tải gần nhất — để biết danh sách có THẬT SỰ đổi không. */
+let signature = '';
+let loading: Promise<boolean> | null = null;
+
+/**
+ * Mọi khung xem trước đang có trên trang. Tải xong danh sách thì vẽ lại thẳng
+ * những DOM này, KHÔNG đi qua `editing.reconvertItem` — hàm đó chạy một
+ * `model.change`, bắn `change:data` và đánh dấu bài là "đã sửa" dù không ai sửa gì.
+ */
+const previews = new Map<HTMLElement, string>();
+
+function rerenderPreviews() {
+  for (const [dom, slug] of previews) {
+    if (!dom.isConnected) previews.delete(dom);
+    else renderPreview(dom, slug);
+  }
+}
 
 function backendUrl(): string {
   const w = window as unknown as { strapi?: { backendURL?: string } };
   return (w.strapi?.backendURL ?? '').replace(/\/$/, '');
 }
 
-async function loadCtas(force = false): Promise<void> {
+/** Trả `true` khi danh sách khác lần trước (lần đầu tải thành công cũng tính). */
+async function loadCtas(force = false): Promise<boolean> {
   if (loading && !force) return loading;
   loading = (async () => {
     try {
@@ -59,12 +76,21 @@ async function loadCtas(force = false): Promise<void> {
         `${backendUrl()}/api/article-ctas?pagination[pageSize]=200&sort=name:asc`,
         { credentials: 'omit' }
       );
-      if (!res.ok) return;
+      if (!res.ok) return false;
       const json = (await res.json()) as { data?: ArticleCta[] };
+      const rows = (json.data ?? []).filter((row) => row.slug);
+      const next = JSON.stringify(
+        rows.map((r) => [r.slug, r.name, r.variant, r.heading, r.description, r.buttonLabel])
+      );
+      if (next === signature) return false;
+      signature = next;
       cache.clear();
-      for (const row of json.data ?? []) if (row.slug) cache.set(row.slug, row);
+      for (const row of rows) cache.set(row.slug, row);
+      rerenderPreviews();
+      return true;
     } catch {
       // Mất mạng / chưa cấp quyền Public: widget vẫn hiện slug, chỉ thiếu xem trước.
+      return false;
     }
   })();
   return loading;
@@ -178,21 +204,17 @@ export class ArticleCtaPlugin extends Plugin {
       view: (modelEl: ModelElement, { writer }: { writer: ViewDowncastWriter }) => {
         const slug = String(modelEl.getAttribute(ATTR) ?? '');
         const container = writer.createContainerElement('div', { class: 'cns-cta' });
-        const raw = writer.createRawElement('div', {}, (dom) => renderPreview(dom, slug));
+        const raw = writer.createRawElement('div', {}, (dom) => {
+          previews.set(dom, slug);
+          renderPreview(dom, slug);
+        });
         writer.insert(writer.createPositionAt(container, 0), raw);
         return toWidget(container, writer, { label: 'CTA Box' });
       },
     });
 
-    // Danh sách tải xong (hoặc tải lại) → vẽ lại mọi widget đang có trong bài.
-    const refreshWidgets = () => {
-      const root = editor.model.document.getRoot();
-      if (!root) return;
-      for (const { item } of editor.model.createRangeIn(root)) {
-        if (item.is('element', MODEL)) editor.editing.reconvertItem(item);
-      }
-    };
-    void loadCtas().then(refreshWidgets);
+    // Tải danh sách; xong thì `loadCtas` tự vẽ lại các khung xem trước.
+    void loadCtas();
 
     editor.ui.componentFactory.add('articleCta', (locale) => {
       const dropdown = createDropdown(locale);
@@ -203,7 +225,10 @@ export class ArticleCtaPlugin extends Plugin {
       });
 
       const items = new Collection<ListDropdownItemDefinition>();
+      /** Danh sách đang hiển thị được dựng từ phiên bản dữ liệu nào. */
+      let filledFrom: string | null = null;
       const fill = () => {
+        filledFrom = signature;
         items.clear();
         if (cache.size === 0) {
           items.add({
@@ -231,11 +256,21 @@ export class ArticleCtaPlugin extends Plugin {
       addListToDropdown(dropdown, items);
 
       // Mỗi lần mở dropdown thì tải lại — khung vừa tạo ở tab khác hiện ra ngay.
+      //
+      // Chỉ dựng lại danh sách khi nó THẬT SỰ đổi. Lúc mở, CKEditor đặt focus vào
+      // mục đầu tiên; `items.clear()` gỡ đúng mục đó khỏi DOM, focus rơi ra
+      // ngoài và `closeDropdownOnBlur` đóng dropdown ngay — người dùng chưa kịp
+      // chọn gì. Khi buộc phải dựng lại thì trả focus về danh sách.
       dropdown.on('change:isOpen', (_evt, _name, isOpen) => {
         if (!isOpen) return;
+        // Dữ liệu đã tải từ trước nhưng danh sách dựng khi còn rỗng: dựng lại
+        // NGAY, đồng bộ — handler này chạy trước bước focus mục đầu của CKEditor
+        // (priority low - 10) nên chưa có gì bị gỡ khỏi tay người dùng.
+        if (filledFrom !== signature) fill();
         void loadCtas(true).then(() => {
+          if (filledFrom === signature) return;
           fill();
-          refreshWidgets();
+          if (dropdown.isOpen) dropdown.listView?.focus();
         });
       });
 
