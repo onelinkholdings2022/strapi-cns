@@ -725,7 +725,7 @@ export interface SectionsHero extends Struct.ComponentSchema {
     icon: 'apps';
   };
   attributes: {
-    backgroundVideo: Schema.Attribute.Media<'images' | 'files'>;
+    backgroundVideo: Schema.Attribute.Media<'videos'>;
     ctaButton: Schema.Attribute.Component<'shared.slide-button', false>;
     posterImage: Schema.Attribute.Media<'images'>;
     rotatingWords: Schema.Attribute.Component<'elements.rotating-word', true>;
